@@ -56,7 +56,7 @@ a {
 
 button,
 input {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif !important;
 }
 
 img {
@@ -91,7 +91,7 @@ img {
 }
 
 .site-header {
-  position: sticky;
+  position:fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -140,7 +140,7 @@ img {
   content: '';
   border-bottom: solid 1px #ff009c;
   transform: scaleX(0);
-  transition: transform 300ms ease-in-out;
+  transition: transform 500ms ease-in-out;
   height: 10px;
 }
 
@@ -262,6 +262,7 @@ img {
   isolation: isolate;
   background-color:rgba(0 0 0/30%);
   background-blend-mode: multiply;
+  padding: 80px 0 50px 0;
 }
 .home-page-cards {
   position: relative;
@@ -321,3 +322,59 @@ img {
   margin: 0 auto;
 }
 /* Home Cards CSS End*/
+
+/* Home Page Signup CSS Start */
+.home-signup-section {
+  padding: 40px 0;
+  background: linear-gradient(to top,#f4a1d4, #fff);
+}
+
+.home-signup-wrapper {
+  text-align: center;
+}
+
+.home-signup-input-wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+input.home-signup-input {
+  width: 50%;
+  display: inline-block;
+  font-size: 16px;
+  padding: 9px 15px;
+  outline: none;
+  border: 1px solid transparent;
+  
+}
+
+.home-signup-submit-button {
+  display: inline-block;
+  background: #ff009c;
+  color: #fff;
+  padding: 9px 25px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin-left:5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.3s all ease-in-out;
+}
+ 
+.home-signup-submit-button:hover{
+  background-color: #fff;
+  color: #000;
+  border-color: #ff009c;
+}
+.home-signup-wrapper h3 {
+  font-size: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: normal;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Home Page Signup CSS End */
+
