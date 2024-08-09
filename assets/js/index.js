@@ -22,3 +22,12 @@ $('.subpage-readmore-btn').click(function (e) {
   });
   
   // Read More Functionality JS end
+
+  // Header Scroll JS Start
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var header = $("header");
+    header.toggleClass("fixed-header", $(window).scrollTop() > 0);
+  });
+});
+// Header Scroll JS End

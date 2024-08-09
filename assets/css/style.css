@@ -1,69 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 /* Global CSS Start */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tangerine", cursive;
+}
+
+p {
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+button,
+input {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* Color 
+  #b700cc
+  #ff009c 
+  #ff486e
+  */
+
+/* Global CSS End */
+
+
+/*Header CSS Start */
+.logo img {
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  vertical-align: middle;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #fff;
+}
+
+.main-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.main-navbar ul li a {
+  font-size: 1rem;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.main-navbar ul li a.active {
+  color: #ff009c;
+}
+
+.main-navbar ul li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #ff009c;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  height: 10px;
+}
+
+.main-navbar ul li a:hover:after,
+.main-navbar ul li a.active:after {
+  transform: scaleX(1);
+}
+
+.close-icon {
+  display: none;
+}
+
+.fixed-header {
+  background-color: #fff;
+}
+
+.fixed-header .main-navbar ul li a {
+  color: #000;
+}
+
+.menu-icon {
+  display: none;
+  color: #000;
+  width: 30px;
+  text-align: right;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+/* Header CSS End */
+
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  height: 650px;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.banner-text h1 {
+  font-size: 100px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.banner-text h2 {
+  font-size: 45px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.banner-text h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ff009c;
+  overflow: hidden;
+  animation: animate 3s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
   }
-  html {
-    scroll-behavior:smooth;
-  }
-  
-  body {
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Rubik", sans-serif;
-  }
-  
-  p {
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul li {
-    line-height: 1.5;
-    margin-bottom: 3px;
-  }
-  
-  a {
-    display: inline-block;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  button,
-  input {
-    font-family: "Open Sans", sans-serif;
-  
-  }
-  
-  img {
-    max-width: 100%;
-    object-fit: cover;
+
+  100% {
     width: 100%;
   }
-  
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  /* Global CSS End */
-  
+}
+
+/* Banner Section  CSS End */
+
+/* Home Page Intro CSS Start */
+.home-page-intro p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+/* Home Page Intro CSS End */
+
+
+/* Home Cards CSS Start */
+.home-page-cards-section{
+  background-image: url("../images/home-page-cards-bg.jpg");
+  background-attachment: fixed;
+  isolation: isolate;
+  background-color:rgba(0 0 0/30%);
+  background-blend-mode: multiply;
+}
+.home-page-cards {
+  position: relative;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home-page-cards-image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.home-page-cards-image a {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page-cards-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.7s all ease-in-out;
+}
+
+.home-page-cards:hover .home-page-cards-image img {
+  transform: scale(1.2);
+}
+
+.home-page-cards-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+}
+
+.home-page-cards-content a {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-page-cards-content a h3 {
+  font-size: 80px;
+  margin: 0 auto;
+}
+/* Home Cards CSS End*/
