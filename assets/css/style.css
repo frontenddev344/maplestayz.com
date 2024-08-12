@@ -30,6 +30,7 @@ h4,
 h5,
 h6 {
   font-family: "Tangerine", cursive;
+font-weight: 700;
 }
 
 p {
@@ -849,3 +850,32 @@ background-attachment: fixed;
   margin-left: 16px;
 }
 /* Pages Cards CSS End */
+
+/* Privacy Policy CSS Start */
+.privacy-policy-group{
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow:rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  overflow: none;
+.privacy-policy-group h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ff009c;
+}
+.privacy-policy-group h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.privacy-policy-group p {
+  margin-bottom: 10px;
+}
+.privacy-policy-group ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+.privacy-policy-group ul{
+  margin: 10px auto;
+}
+/* Privacy Policy CSS End */
