@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
   font-family: "Tangerine", cursive;
-font-weight: 700;
+  font-weight: 700;
 }
 
 p {
@@ -251,8 +251,8 @@ img {
 /* Banner Section  CSS End */
 
 /* Section Heading CSS Start */
-.section-heading{
-  font-size:80px;
+.section-heading {
+  font-size: 80px;
   line-height: normal;
 }
 
@@ -309,7 +309,7 @@ img {
 }
 
 .home-page-cards:hover .home-page-cards-image img {
-  transform:scale(1.1) rotate(-3deg);
+  transform: scale(1.1) rotate(-3deg);
 }
 
 .home-page-cards-content {
@@ -399,11 +399,12 @@ input.pages-signup-input {
 /* Home Page Signup CSS End */
 
 /* Home Page Featured Cards CSS Start */
-.heading-like{
+.heading-like {
   font-weight: 600;
   color: #ff009c;
 }
-.home-page-featured-cards-section{
+
+.home-page-featured-cards-section {
   background-image: url("../images/featured-hotel-bg.jpg");
   background-position: center;
   background-size: cover;
@@ -463,32 +464,39 @@ input.pages-signup-input {
   gap: 10px;
   width: 100%;
 }
+
 .home-page-featured-cards {
   padding: 15px;
   background-color: #000;
 }
+
 .home-page-featured-cards-group {
   margin-bottom: 15px;
 }
+
 .home-page-featured-cards-content {
   padding: 15px;
 }
-.home-page-featured-cards-group h3{
+
+.home-page-featured-cards-group h3 {
   font-size: 50px;
   margin-bottom: 7px;
   font-weight: 700;
 }
-.dollar-bag{
+
+.dollar-bag {
   margin-right: 8px;
 }
-.home-page-featured-cards-image{
+
+.home-page-featured-cards-image {
   overflow: hidden;
 }
-.home-page-featured-cards-image img{
+
+.home-page-featured-cards-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition:0.5s all ease-in-out ;
+  transition: 0.5s all ease-in-out;
 }
 
 .home-page-featured-cards-image img:hover {
@@ -498,19 +506,21 @@ input.pages-signup-input {
 .home-page-featured-cards-group p {
   margin-bottom: 10px;
 }
+
 .home-page-featured-cards-group ul li {
   list-style: disc;
   margin-left: 16px;
   margin-bottom: 10px;
 }
-.home-page-featured-cards-group ul li:last-child{
+
+.home-page-featured-cards-group ul li:last-child {
   margin-bottom: 0;
 }
 
 /* Home Page Featured Cards CSS End */
 
 /* Page Blog Cards CSS Start */
-.page-blog-cards{
+.page-blog-cards {
   position: relative;
   overflow: hidden;
   background-color: rgba(0 0 0/60%);
@@ -518,13 +528,16 @@ input.pages-signup-input {
   border: 5px solid #ff009c;
   margin-bottom: 30px;
 }
-.blog-cards-content h3{
+
+.blog-cards-content h3 {
   font-size: 30px;
   font-weight: 900;
 }
-.blog-cards-content p{
+
+.blog-cards-content p {
   font-size: 15px;
 }
+
 .blog-card-btn {
   color: #fff;
   background: #ff009c;
@@ -538,46 +551,51 @@ input.pages-signup-input {
   font-weight: 500;
   margin: 10px auto;
 }
+
 .blog-card-btn:hover {
-background:#fff;
+  background: #fff;
   color: #ff009c;
   border-color: #ff009c;
 }
+
 .blog-cards-content {
   padding: 15px 10px;
   position: absolute;
-   background: rgba(0 0 0/80%);
+  background: rgba(0 0 0/80%);
   background-blend-mode: multiply;
   top: 100%;
-  height:100%;
+  height: 100%;
   width: 100%;
   transition: 0.4s all ease-in-out;
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
 }
-.page-blog-cards:hover   .blog-cards-content{
-  top:45%;
+
+.page-blog-cards:hover .blog-cards-content {
+  top: 45%;
   opacity: 1;
   visibility: visible;
 }
-.page-blog-cards-image{
+
+.page-blog-cards-image {
   overflow: hidden;
 }
-.blog-cards-image img{
+
+.blog-cards-image img {
   transition: 0.5s all ease-in-out;
   object-fit: cover;
 }
 
-.page-blog-cards:hover   .blog-cards-image img{
- transform: scale(1.1) rotate(-3deg);
+.page-blog-cards:hover .blog-cards-image img {
+  transform: scale(1.1) rotate(-3deg);
 }
 
 /* Page Blog Cards CSS Start */
 
 /* Pages Disclaimer Section CSS Start */
-.disclaimer-wrapper p{
-  border:1px solid #ff009c;
+.disclaimer-wrapper p {
+  border: 1px solid #ff009c;
   padding: 20px;
 }
 
@@ -598,7 +616,7 @@ background:#fff;
   font-family: "FontAwesome";
   background-image: none;
   transform: rotate(0);
-  background:transparent;
+  background: transparent;
 }
 
 .accordion {
@@ -606,22 +624,24 @@ background:#fff;
 }
 
 .accordion-button:not(.collapsed) {
-  background:#ee71be;
+  background: #ee71be;
   box-shadow: none;
   color: #fff;
 }
+
 .accordion-item:first-of-type>.accordion-header .accordion-button {
-   border-top-left-radius: 0;
-   border-top-right-radius: 0; 
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
+
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
   border-bottom-right-radius: 0;
-  border-bottom-left-radius:0;
+  border-bottom-left-radius: 0;
 }
 
 .accordion-button {
-color: #fff;
-  background:#ea62b5;
+  color: #fff;
+  background: #ea62b5;
 }
 
 .accordion {
@@ -645,10 +665,11 @@ color: #fff;
 }
 
 .accordion-body {
-background-color: #fff;
+  background-color: #fff;
   font-weight: 500;
   font-size: 15px;
 }
+
 /* Pages Accordion Section CSS End  */
 
 /* Footer CSS Start */
@@ -657,8 +678,8 @@ background-color: #fff;
   background-color: rgba(0 0 0/75%);
   background-position: center;
   background-blend-mode: multiply;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .footer-wrapper {
@@ -679,7 +700,8 @@ background-attachment: fixed;
   width: 30%;
   padding: 0 20px;
 }
-.footer-menu-icons{
+
+.footer-menu-icons {
   color: #ff009c;
   margin-right: 5px;
 }
@@ -688,7 +710,7 @@ background-attachment: fixed;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
- color: #ff009c;
+  color: #ff009c;
 }
 
 .footer-items .social-icons {
@@ -769,8 +791,9 @@ background-attachment: fixed;
 .social-icons i:hover {
   color: #fff;
   background: linear-gradient(to bottom, #ff009c, #ee71be);
-  transform:translateY(2px);
+  transform: translateY(2px);
 }
+
 /* Social Icons CSS End */
 
 /* Pages Banner CSS Start */
@@ -787,6 +810,7 @@ background-attachment: fixed;
   display: block;
   overflow: hidden;
 }
+
 .pages-banner-text h1 {
   font-size: 70px;
   max-width: 800px;
@@ -802,16 +826,17 @@ background-attachment: fixed;
 .pages-banner-text-group {
   animation: roll 2s ease-in-out forwards;
   opacity: 0;
-  transform:translateX(-100%);
+  transform: translateX(-100%);
   text-align: center;
 }
 
 @keyframes roll {
   to {
     opacity: 1;
-    transform:translateX(0);
+    transform: translateX(0);
   }
 }
+
 /* Pages Banner CSS End */
 
 /* Pages Cards CSS Start */
@@ -819,63 +844,259 @@ background-attachment: fixed;
 
 
 .pages-cards {
-    margin-bottom: 40px;
-    border: 3px double #ff009c;
-    padding: 15px;
-    overflow: hidden;
-  }
-  .pages-cards-image {
+  margin-bottom: 40px;
+  border: 3px double #ff009c;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.pages-cards-image {
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
+
 .pages-cards-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.pages-cards-group{
+
+.pages-cards-group {
   margin-bottom: 15px;
 }
+
 .pages-cards-group h2 {
   font-size: 45px;
   margin-bottom: 0;
 }
-.pages-cards-group p{
+
+.pages-cards-group p {
   margin-bottom: 5px;
 }
-.pages-cards-group ul li{
+
+.pages-cards-group ul li {
   margin-bottom: 5px;
   list-style-type: disc;
   margin-left: 16px;
 }
+
 /* Pages Cards CSS End */
 
 /* Privacy Policy CSS Start */
-.privacy-policy-group{
+.privacy-policy-group {
   margin-bottom: 30px;
-  padding: 10px;
-  box-shadow:rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  padding: 20px;
+  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
   border-radius: 10px;
   overflow: none;
+}
+
 .privacy-policy-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
   color: #ff009c;
 }
+
 .privacy-policy-group h4 {
-  font-size: 30px;
+  font-size: 18px;
   margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
 }
+
 .privacy-policy-group p {
   margin-bottom: 10px;
 }
+
 .privacy-policy-group ul li {
   margin-bottom: 10px;
   list-style-type: disc;
   margin-left: 17px;
 }
-.privacy-policy-group ul{
+
+.privacy-policy-group ul {
   margin: 10px auto;
 }
+
 /* Privacy Policy CSS End */
+
+/* Contact Us Page CSS Start */
+.contact-us-page-form-section .container>h3{
+font-family: "Raleway", sans-serif;
+max-width: 700px;
+margin:0 auto;
+font-size: 24px;
+}
+
+
+.contact-us-form-image{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.contact-us-form-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.form-wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Raleway", sans-serif;
+}
+
+#contact {
+  background-image: url("../images/form-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  height: 100%;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea ,
+#contact select
+{
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover,
+#contact select:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+#contact select {
+  max-width: 100%;
+color: #888;
+outline: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 35%;
+  border: none;
+  background:#ea62b5;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: "Raleway", sans-serif; 
+  font-size: 17px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #ff009c;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder,::-webkit-select-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+:-ms-input-placeholder {
+  color: #888;
+}
+.contact-us-group {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  overflow: none;
+}
+.contact-us-group h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ff009c;
+}
+.contact-us-group p {
+   margin-bottom: 10px;
+}
+.contact-us-group ul li{
+list-style: disc;
+margin-left: 16px;
+}
+.contact-us-group ul li a,.contact-us-group p a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.2s all ease-in-out;
+}
+.contact-us-group ul li a:hover,.contact-us-group p a:hover{
+  color: #ff009c;
+  transform: translateX(2px);
+}
+
+/* Contact Us Page CSS End */
