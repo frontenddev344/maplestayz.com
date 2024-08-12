@@ -526,7 +526,7 @@ input.pages-signup-input {
 }
 .blog-card-btn {
   color: #fff;
-  background: linear-gradient(to bottom, #ff009c, #ee71be);
+  background: #ff009c;
   outline: none;
   padding: 10px 20px;
   line-height: normal;
