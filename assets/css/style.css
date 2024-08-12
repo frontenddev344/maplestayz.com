@@ -20,6 +20,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
 }
 
 h1,
@@ -339,22 +340,22 @@ img {
 /* Home Cards CSS End*/
 
 /* Home Page Signup CSS Start */
-.home-signup-section {
+.pages-signup-section {
   padding: 40px 0;
 }
 
-.home-signup-wrapper {
+.pages-signup-wrapper {
   text-align: center;
   border: 5px double #ff009c;
   padding: 30px 0;
 }
 
-.home-signup-input-wrapper {
+.pages-signup-input-wrapper {
   padding-top: 20px;
   margin: 0 auto;
 }
 
-input.home-signup-input {
+input.pages-signup-input {
   width: 40%;
   display: inline-block;
   font-size: 16px;
@@ -364,7 +365,7 @@ input.home-signup-input {
   line-height: normal;
 }
 
-.home-signup-submit-button {
+.pages-signup-submit-button {
   display: inline-block;
   background: #ff009c;
   color: #fff;
@@ -379,13 +380,13 @@ input.home-signup-input {
   line-height: normal;
 }
 
-.home-signup-submit-button:hover {
+.pages-signup-submit-button:hover {
   background-color: #fff;
   color: #ff009c;
   border-color: #ff009c;
 }
 
-.home-signup-wrapper h3 {
+.pages-signup-wrapper h3 {
   font-size: 25px;
   max-width: 800px;
   margin: 0 auto;
@@ -416,16 +417,15 @@ input.home-signup-input {
   margin-top: 10px;
   display: none;
   padding: 0 0 15px 0;
-  font-weight: 500;
 }
 
 .btn-darkred-block {
-  background: linear-gradient(to top, #ff009c, #ee71be);
+  background: #ff009c;
   color: #fff;
   border: none;
   outline: none;
   padding: 10px 20px;
-  transition: 0.3s all ease-in-out;
+  transition: 0.7s all ease-in-out;
   cursor: pointer;
   line-height: normal;
   display: inline-block;
@@ -446,14 +446,14 @@ input.home-signup-input {
   padding: 10px 20px;
   line-height: normal;
   text-align: center;
-  transition: 0.3s all ease-in-out;
+  transition: 0.7s all ease-in-out;
   overflow: hidden;
   border: 1px solid transparent;
   font-weight: 500;
 }
 
 .external-pages-link-btn:hover {
-  background: linear-gradient(to top, #ff009c, #ee71be);
+  background: #ff009c;
   color: #fff;
 }
 
@@ -515,6 +515,7 @@ input.home-signup-input {
   background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
   border: 5px solid #ff009c;
+  margin-bottom: 30px;
 }
 .blog-cards-content h3{
   font-size: 30px;
@@ -786,13 +787,13 @@ background-attachment: fixed;
   overflow: hidden;
 }
 .pages-banner-text h1 {
-  font-size: 40px;
+  font-size: 70px;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .pages-banner-text h3 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
 }
@@ -800,14 +801,51 @@ background-attachment: fixed;
 .pages-banner-text-group {
   animation: roll 2s ease-in-out forwards;
   opacity: 0;
-  transform: rotateY(180deg);
+  transform:translateX(-100%);
   text-align: center;
 }
 
 @keyframes roll {
   to {
     opacity: 1;
-    transform: rotateY(0deg);
+    transform:translateX(0);
   }
 }
 /* Pages Banner CSS End */
+
+/* Pages Cards CSS Start */
+
+
+
+.pages-cards {
+    margin-bottom: 40px;
+    border: 3px double #ff009c;
+    padding: 15px;
+    overflow: hidden;
+  }
+  .pages-cards-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.pages-cards-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pages-cards-group{
+  margin-bottom: 15px;
+}
+.pages-cards-group h2 {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.pages-cards-group p{
+  margin-bottom: 5px;
+}
+.pages-cards-group ul li{
+  margin-bottom: 5px;
+  list-style-type: disc;
+  margin-left: 16px;
+}
+/* Pages Cards CSS End */
