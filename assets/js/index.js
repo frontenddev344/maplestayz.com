@@ -31,3 +31,5 @@ $(document).ready(function () {
   });
 });
 // Header Scroll JS End
+
+AOS.init();

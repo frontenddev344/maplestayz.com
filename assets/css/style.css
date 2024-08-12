@@ -100,7 +100,7 @@ img {
   margin: 0 auto;
   z-index: 9999;
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   border-bottom: 1px solid #fff;
 }
 
@@ -141,7 +141,7 @@ img {
   content: '';
   border-bottom: solid 1px #ff009c;
   transform: scaleX(0);
-  transition: transform 500ms ease-in-out;
+  transition: transform 300ms ease-in-out;
   height: 10px;
 }
 
@@ -164,11 +164,13 @@ img {
 
 .menu-icon {
   display: none;
-  color: #000;
+  color: #ff009c;
   width: 30px;
   text-align: right;
   cursor: pointer;
   margin: auto 0;
+  font-size: 25px;
+  z-index: 60;
 }
 
 /* Header CSS End */
@@ -231,7 +233,7 @@ img {
   height: 100%;
   color: #ff009c;
   overflow: hidden;
-  animation: animate 3s ease-in-out infinite;
+  animation: animate 3s ease-in-out;
 }
 
 @keyframes animate {
@@ -245,6 +247,15 @@ img {
 }
 
 /* Banner Section  CSS End */
+
+/* Section Heading CSS Start */
+.section-heading{
+  font-size:80px;
+  line-height: normal;
+}
+
+/* Section Heading CSS End */
+
 
 /* Home Page Intro CSS Start */
 .home-page-intro p {
@@ -260,6 +271,8 @@ img {
 .home-page-cards-section {
   background-image: url("../images/home-page-cards-bg.jpg");
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   isolation: isolate;
   background-color: rgba(0 0 0/30%);
   background-blend-mode: multiply;
@@ -294,7 +307,7 @@ img {
 }
 
 .home-page-cards:hover .home-page-cards-image img {
-  transform: scale(1.2);
+  transform:scale(1.1) rotate(-3deg);
 }
 
 .home-page-cards-content {
@@ -332,6 +345,8 @@ img {
 
 .home-signup-wrapper {
   text-align: center;
+  border: 5px double #ff009c;
+  padding: 30px 0;
 }
 
 .home-signup-input-wrapper {
@@ -386,7 +401,16 @@ input.home-signup-input {
   font-weight: 600;
   color: #ff009c;
 }
-
+.home-page-featured-cards-section{
+  background-image: url("../images/featured-hotel-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  isolation: isolate;
+  background-color: rgba(0 0 0/70%);
+  background-blend-mode: multiply;
+}
 
 .subpage-exp-content {
   margin-top: 10px;
@@ -418,12 +442,9 @@ input.home-signup-input {
 .external-pages-link-btn {
   color: #ff009c;
   background-color: #fff;
-  border: none;
   outline: none;
   padding: 10px 20px;
-  cursor: pointer;
   line-height: normal;
-  display: inline-block;
   text-align: center;
   transition: 0.3s all ease-in-out;
   overflow: hidden;
@@ -442,8 +463,8 @@ input.home-signup-input {
   width: 100%;
 }
 .home-page-featured-cards {
-  border: 5px solid #ff009c;
   padding: 15px;
+  background-color: #000;
 }
 .home-page-featured-cards-group {
   margin-bottom: 15px;
@@ -456,6 +477,26 @@ input.home-signup-input {
   margin-bottom: 7px;
   font-weight: 700;
 }
+.dollar-bag{
+  margin-right: 8px;
+}
+.home-page-featured-cards-image{
+  overflow: hidden;
+}
+.home-page-featured-cards-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:0.5s all ease-in-out ;
+}
+
+.home-page-featured-cards-image img:hover {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.home-page-featured-cards-group p {
+  margin-bottom: 10px;
+}
 .home-page-featured-cards-group ul li {
   list-style: disc;
   margin-left: 16px;
@@ -466,3 +507,307 @@ input.home-signup-input {
 }
 
 /* Home Page Featured Cards CSS End */
+
+/* Page Blog Cards CSS Start */
+.page-blog-cards{
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  border: 5px solid #ff009c;
+}
+.blog-cards-content h3{
+  font-size: 30px;
+  font-weight: 900;
+}
+.blog-cards-content p{
+  font-size: 15px;
+}
+.blog-card-btn {
+  color: #fff;
+  background: linear-gradient(to bottom, #ff009c, #ee71be);
+  outline: none;
+  padding: 10px 20px;
+  line-height: normal;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+  overflow: hidden;
+  border: 1px solid transparent;
+  font-weight: 500;
+  margin: 10px auto;
+}
+.blog-card-btn:hover {
+background:#fff;
+  color: #ff009c;
+  border-color: #ff009c;
+}
+.blog-cards-content {
+  padding: 15px 10px;
+  position: absolute;
+   background: rgba(0 0 0/80%);
+  background-blend-mode: multiply;
+  top: 100%;
+  height:100%;
+  width: 100%;
+  transition: 0.4s all ease-in-out;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+.page-blog-cards:hover   .blog-cards-content{
+  top:45%;
+  opacity: 1;
+  visibility: visible;
+}
+.page-blog-cards-image{
+  overflow: hidden;
+}
+.blog-cards-image img{
+  transition: 0.5s all ease-in-out;
+  object-fit: cover;
+}
+
+.page-blog-cards:hover   .blog-cards-image img{
+ transform: scale(1.1) rotate(-3deg);
+}
+
+/* Page Blog Cards CSS Start */
+
+/* Pages Disclaimer Section CSS Start */
+.disclaimer-wrapper p{
+  border:1px solid #ff009c;
+  padding: 20px;
+}
+
+/* Pages Disclaimer Section CSS End */
+
+/* Pages Accordion Section CSS Start  */
+.accordion-button::after {
+  flex-shrink: 0;
+  content: "\f067";
+  font-family: "FontAwesome";
+  background-image: none;
+  background-repeat: no-repeat;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\f068";
+  font-family: "FontAwesome";
+  background-image: none;
+  transform: rotate(0);
+  background:transparent;
+}
+
+.accordion {
+  --bs-accordion-btn-icon-transform: rotate(0);
+}
+
+.accordion-button:not(.collapsed) {
+  background:#ee71be;
+  box-shadow: none;
+  color: #fff;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+   border-top-left-radius: 0;
+   border-top-right-radius: 0; 
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius:0;
+}
+
+.accordion-button {
+color: #fff;
+  background:#ea62b5;
+}
+
+.accordion {
+  --bs-accordion-border-color: none;
+}
+
+.accordion-item {
+  margin-bottom: 12px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item:last-of-type {
+  border-radius: 0;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 0;
+}
+
+.accordion-body {
+background-color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* Pages Accordion Section CSS End  */
+
+/* Footer CSS Start */
+.footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-color: rgba(0 0 0/75%);
+  background-position: center;
+  background-blend-mode: multiply;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.logo-bottom img {
+  width: 100%;
+  max-width: 230px;
+}
+
+.footer-items {
+  width: 30%;
+  padding: 0 20px;
+}
+.footer-menu-icons{
+  color: #ff009c;
+  margin-right: 5px;
+}
+
+.footer-items h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 12px;
+ color: #ff009c;
+}
+
+.footer-items .social-icons {
+  width: 100%;
+  margin: 7px auto;
+}
+
+
+.footer-items ul li a {
+  padding: 3px 0;
+  color: #fff;
+}
+
+.footer .footer-items ul li a {
+  border-bottom: 1px solid transparent;
+  transition: 0.6s all ease;
+  font-size: 17px;
+}
+
+
+.footer .footer-items ul li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #ff009c;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  height: 5px;
+}
+
+
+.footer .footer-items ul li a:hover:after {
+  transform: scaleX(1);
+}
+
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+  margin: auto 0;
+  border-top: 1px solid #ff009c;
+}
+
+.copyright p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Footer CSS End */
+
+/* Social Icons CSS Start */
+.social-icons {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+  margin: 10px auto;
+
+}
+
+.social-icons i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 17px;
+  background-color: #fffcfc;
+  color: #ff009c;
+  line-height: normal;
+  margin: 0 1px;
+  transition: 0.3s all ease-in-out;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.social-icons i:hover {
+  color: #fff;
+  background: linear-gradient(to bottom, #ff009c, #ee71be);
+  transform:translateY(2px);
+}
+/* Social Icons CSS End */
+
+/* Pages Banner CSS Start */
+.pages-banner-image {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pages-banner-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+.pages-banner-text h1 {
+  font-size: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pages-banner-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.pages-banner-text-group {
+  animation: roll 2s ease-in-out forwards;
+  opacity: 0;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+@keyframes roll {
+  to {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+/* Pages Banner CSS End */

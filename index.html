@@ -7,10 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="./assets/images/favicon.ico">
     <title>Home</title>
 </head>
 
@@ -82,62 +83,77 @@
         <div class="container">
             <div class="home-page-cards-wrapper">
                 <div class="row">
+
+
                     <div class="col-sm-6">
-                        <div class="home-page-cards">
-                            <div class="home-page-cards-image">
-                                <a href="business.html">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
+                        <div data-aos="fade-right" data-aos-duration="1500">
+
+                            <div class="home-page-cards">
+                                <div class="home-page-cards-image">
+                                    <a href="business.html">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <div class="home-page-cards-content">
+                                    <a href="business.html">
+                                        <h3>Business Hotels</h3>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="home-page-cards-content">
-                                <a href="business.html">
-                                    <h3>Business Hotels</h3>
-                                </a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-sm-6">
+                        <div data-aos="fade-left" data-aos-duration="1500">
+                            <div class="home-page-cards">
+                                <div class="home-page-cards-image">
+                                    <a href="spa.html">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <div class="home-page-cards-content">
+                                    <a href="spa.html">
+                                        <h3>Spa Hotels</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            </di>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div data-aos="fade-right" data-aos-duration="1500">
+                            <div class="home-page-cards">
+                                <div class="home-page-cards-image">
+                                    <a href="adventure.html">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <div class="home-page-cards-content">
+                                    <a href="adventure.html">
+                                        <h3>Adventure Hotels</h3>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="home-page-cards">
-                            <div class="home-page-cards-image">
-                                <a href="spa.html">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
-                            </div>
-                            <div class="home-page-cards-content">
-                                <a href="spa.html">
-                                    <h3>Spa Hotels</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="home-page-cards">
-                            <div class="home-page-cards-image">
-                                <a href="adventure.html">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
-                            </div>
-                            <div class="home-page-cards-content">
-                                <a href="adventure.html">
-                                    <h3>Adventure Hotels</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="home-page-cards">
-                            <div class="home-page-cards-image">
-                                <a href="casino.html">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
-                            </div>
-                            <div class="home-page-cards-content">
-                                <a href="casino.html">
-                                    <h3>Casino Hotels</h3>
-                                </a>
+                        <div data-aos="fade-left" data-aos-duration="1500">
+                            <div class="home-page-cards">
+                                <div class="home-page-cards-image">
+                                    <a href="casino.html">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <div class="home-page-cards-content">
+                                    <a href="casino.html">
+                                        <h3>Casino Hotels</h3>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -163,98 +179,104 @@
     <!-- Home Signup Field Section End -->
 
     <!-- Home Page Featured Hotels Section Start -->
-    <section class="home-page-featured-cards-section pb-4 py-md-5">
-        <div class="container"> 
+    <section class="home-page-featured-cards-section pb-4 pb-md-5">
+        <div class="container">
             <div class="home-page-featured-cards-wrapper">
+                <h2 class="section-heading text-center py-5">Featured Hotels</h2>
                 <div class="row">
 
                     <div class="col-sm-6">
-                        <div class="home-page-featured-cards">
-                            <div class="home-page-featured-cards-image">
-                                <a href="">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
-                            </div>
-                            <div class="home-page-featured-cards-content">
-                                <div class="home-page-featured-cards-group">
-                                    <h3>Banff Caribou Lodge & Spa, Banff</h3>
-                                    <p><i class="fa-solid fa-sack-dollar"></i> <span class="heading-like">Price per
-                                            Night: </span>CAD $275+</p>
+                        <div data-aos="fade-right" data-aos-duration="1500">
+                            <div class="home-page-featured-cards">
+                                <div class="home-page-featured-cards-image">
+                                    <a href="">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
                                 </div>
-                                <div class="home-page-featured-cards-group">
-                                    <p>Banff Caribou Lodge & Spa combines
-                                        adventure with comfort, offering easy
-                                        access to Banff’s outdoor activities</p>
-                                    <ul>
-                                        <li>Kaszinó közelsége és szórakoztató lehetőségek. </li>
-                                        <li>Luxus szobák és wellness szolgáltatások.</li>
-                                        <li>Helyszíni éttermek és szórakoztató lehetőségek.</li>
-                                    </ul>
-                                </div>
-                                <div class="subpage-exp-content">
-                                    <p>Az Aquaworld Resort Budapest közelében található kaszinó és szórakoztató
-                                        lehetőségek.
-                                        Luxus szobákat, wellness szolgáltatásokat, és helyszíni éttermeket kínál,
-                                        ideálissá téve a
-                                        kaszinó rajongók számára.
-                                    </p>
-                                </div>
-                                <div class="text-left">
-                                    <button class="btn-darkred-block subpage-readmore-btn">Read More</button>
-                                    <a class="external-pages-link-btn" href="https://banffcariboulodge.com/" target="_blank">Visit Website</a>
+                                <div class="home-page-featured-cards-content">
+                                    <div class="home-page-featured-cards-group">
+                                        <h3>Banff Caribou Lodge & Spa, Banff</h3>
+                                        <p><i class="fa-solid fa-sack-dollar fa-beat dollar-bag"></i> <span
+                                                class="heading-like">Price per
+                                                Night: </span>CAD $275+</p>
+                                    </div>
+                                    <div class="home-page-featured-cards-group">
+                                        <p>Banff Caribou Lodge & Spa combines
+                                            adventure with comfort, offering easy
+                                            access to Banff’s outdoor activities</p>
+                                        <ul>
+                                            <li>Kaszinó közelsége és szórakoztató lehetőségek. </li>
+                                            <li>Luxus szobák és wellness szolgáltatások.</li>
+                                            <li>Helyszíni éttermek és szórakoztató lehetőségek.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subpage-exp-content">
+                                        <p>Az Aquaworld Resort Budapest közelében található kaszinó és szórakoztató
+                                            lehetőségek.
+                                            Luxus szobákat, wellness szolgáltatásokat, és helyszíni éttermeket kínál,
+                                            ideálissá téve a
+                                            kaszinó rajongók számára.
+                                        </p>
+                                    </div>
+                                    <div class="text-left">
+                                        <button class="btn-darkred-block subpage-readmore-btn">Read More</button>
+                                        <a class="external-pages-link-btn" href="https://banffcariboulodge.com/"
+                                            target="_blank">Visit Website</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="home-page-featured-cards">
-                            <div class="home-page-featured-cards-image">
-                                <a href="">
-                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
-                                </a>
-                            </div>
-                            <div class="home-page-featured-cards-content">
-                                <div class="home-page-featured-cards-group">
-                                    <h3>The Fairmont Lake Louise           </h3>
-                                    <p><i class="fa-solid fa-sack-dollar"></i> <span class="heading-like">Price per
-                                            Night: </span>CAD $450+</p>
+                        <div data-aos="fade-left" data-aos-duration="1500">
+                            <div class="home-page-featured-cards">
+                                <div class="home-page-featured-cards-image">
+                                    <a href="">
+                                        <img src="./assets/images/Royal_York_Hotel.jpg" alt="card">
+                                    </a>
                                 </div>
-                                <div class="home-page-featured-cards-group">
-                                    <p>The Fairmont Lake Louise offers a stunning
-                                        alpine experience with direct access to
-                                        outdoor adventures.
+                                <div class="home-page-featured-cards-content">
+                                    <div class="home-page-featured-cards-group">
+                                        <h3>The Fairmont Lake Louise </h3>
+                                        <p><i class="fa-solid fa-sack-dollar fa-beat dollar-bag"></i> <span
+                                                class="heading-like">Price per
+                                                Night: </span>CAD $450+</p>
+                                    </div>
+                                    <div class="home-page-featured-cards-group">
+                                        <p>The Fairmont Lake Louise offers a stunning
+                                            alpine experience with direct access to
+                                            outdoor adventures.
                                         </p>
-                                    <ul>
-                                        <li>Prime location by Lake Louise </li>
-                                        <li>Luxus szobák és wellness szolgáltatások.</li>
-                                        <li>Helyszíni éttermek és szórakoztató lehetőségek.</li>
-                                    </ul>
-                                </div>
-                                <div class="subpage-exp-content">
-                                    <p>The Fairmont Lake Louise is renowned for
-                                        its picturesque setting and luxurious
-                                        accommodations. Located by Lake Louise,
-                                        the hotel provides direct access to a range
-                                        of outdoor activities, including skiing, hiking,
-                                        and lake adventures. The hotel features
-                                        elegant rooms with lake and mountain
-                                        views, on-site dining, and assistance with
-                                        adventure planning, making it an ideal
-                                        choice for both comfort and exploration.
-                                        
-                                    </p>
-                                </div>
-                                <div class="text-left">
-                                    <button class="btn-darkred-block subpage-readmore-btn">Read More</button>
-                                    <a class="external-pages-link-btn" href="https://www.fairmont.com/lake-louise/" target="_blank">Visit Website</a>
+                                        <ul>
+                                            <li>Prime location by Lake Louise </li>
+                                            <li>Luxus szobák és wellness szolgáltatások.</li>
+                                            <li>Helyszíni éttermek és szórakoztató lehetőségek.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subpage-exp-content">
+                                        <p>The Fairmont Lake Louise is renowned for
+                                            its picturesque setting and luxurious
+                                            accommodations. Located by Lake Louise,
+                                            the hotel provides direct access to a range
+                                            of outdoor activities, including skiing, hiking,
+                                            and lake adventures. The hotel features
+                                            elegant rooms with lake and mountain
+                                            views, on-site dining, and assistance with
+                                            adventure planning, making it an ideal
+                                            choice for both comfort and exploration.
+
+                                        </p>
+                                    </div>
+                                    <div class="text-left">
+                                        <button class="btn-darkred-block subpage-readmore-btn">Read More</button>
+                                        <a class="external-pages-link-btn" href="https://www.fairmont.com/lake-louise/"
+                                            target="_blank">Visit Website</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
 
                 </div>
             </div>
@@ -263,7 +285,231 @@
     <!-- Home Page Featured Hotels Section End -->
 
 
+    <!-- Home Page Blog Cards Section Start -->
+    <section class="home-page-blog-cards pb-4 pb-sm-5">
+        <div class="container">
+            <div class="blog-cards-wrapper">
+
+                <h2 class="section-heading text-center py-5">Blogs</h2>
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div data-aos="fade-right" data-aos-duration="1500">
+                            <div class="page-blog-cards">
+                                <div class="blog-cards-image">
+                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="blog-card-image">
+                                </div>
+                                <div class="blog-cards-content ">
+                                    <h3>How to Choose the Perfect Business Hotel in Canada</h3>
+                                    <p>When planning a business trip, selecting the right hotel is crucial to ensure a
+                                        successful . . . .
+                                    </p>
+                                    <a class="blog-card-btn" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div data-aos="fade-left" data-aos-duration="1500">
+                            <div class="page-blog-cards">
+                                <div class="blog-cards-image">
+                                    <img src="./assets/images/Royal_York_Hotel.jpg" alt="blog-card-image">
+                                </div>
+                                <div class="blog-cards-content">
+                                    <h3>Why Business Travelers Prefer Luxury Hotels in Canada</h3>
+                                    <p>Luxury hotels are often the top choice for business travelers seeking comfort,
+                                        convenience . . . .</p>
+                                    <a class="blog-card-btn" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+    </section>
+    <!-- Home Page Blog Cards Section End -->
+
+    <!-- Home Page Disclaimer Section Start -->
+    <div class="pages-disclaimer-section pb-5 text-center">
+        <div class="container">
+            <div class="disclaimer-wrapper">
+                <p>The information provided on this site, Maple Stayz, is intended for general informational and
+                    entertainment purposes only. While we strive to provide accurate and up-to-date content
+                    regarding hotels, prices, and amenities, we make no representations or warranties of any
+                    kind, express or implied, about the completeness, accuracy, reliability, suitability, or
+                    availability of the information contained on this site.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Home Page Disclaimer Section End -->
+
+    <!-- Home Page FAQ Section Start -->
+    <!-- Home Page Accordion Section Start -->
+    <section class="page-accordion-section pb-4 pb-sm-4 pb-md-5">
+        <div class="container">
+            <div class="home-page-accordion-wrapper">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Hotel Information
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                All hotel details, including pricing, availability, and amenities, are subject to change
+                                and may
+                                not always be current. The information provided on Maple Stayz is sourced from
+                                third-party
+                                suppliers and hotel partners, and we do not guarantee the accuracy or completeness of
+                                this
+                                information. We encourage users to verify all details directly with the hotels or
+                                booking
+                                platforms before making reservations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Affiliate Links
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Maple Stayz participates in affiliate marketing and may receive a commission from hotels
+                                and booking platforms linked to this site. This compensation does not influence the
+                                content,
+                                topics, or posts made on this site. Our goal is to provide useful and relevant
+                                information to
+                                help you make informed decisions about your travel accommodations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Third-Party Websites
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our site may contain links to external websites, including hotel booking platforms and
+                                other
+                                third-party services. These links are provided for your convenience and do not imply
+                                endorsement or responsibility for the content or practices of these external sites. We
+                                encourage you to review the privacy policies and terms of service of any third-party
+                                websites
+                                you visit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                Limitation of Liability
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In no event shall Maple Stayz, its affiliates, or its partners be liable for any loss or
+                                damage,
+                                including but not limited to indirect or consequential loss or damage, or any loss or
+                                damage
+                                whatsoever arising from loss of data or profits arising out of or in connection with the
+                                use of
+                                this site.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                Changes to Information
+                            </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We reserve the right to modify or update the content on this site at any time without
+                                prior
+                                notice. It is your responsibility to check for any changes or updates to the information
+                                provided.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Page Accordion Section End-->
+
+    <!-- Footer Start -->
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="footer-wrapper">
+
+                <div class="logo-bottom footer-items">
+                    <div><a href="./index.html"> <img src="./assets/images/logo.svg" alt="logo"></a></div>
+                    <div class="social-icons">
+                        <div>
+                            <div class="footer-social-icons">
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-links footer-items">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="./index.html"> <i class="fa-solid fa-house footer-menu-icons"></i> Home</a></li>
+                        <li><a href="./contact-us.html"> <i class="fa-solid fa-phone footer-menu-icons"></i> Contact Us</a></li>
+                        <li><a href="./privacy.html"><i class="fa-solid fa-shield-halved footer-menu-icons"></i> Privacy Policy</a></li>
+                        <li><a href="./terms-conditions.html"><i class="fa-solid fa-rectangle-list footer-menu-icons"></i> Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-quick-links footer-items">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="business.html"><i class="fa-solid fa-hotel footer-menu-icons"></i> Business Hotels</a></li>
+                        <li><a href="spa.html"><i class="fa-solid fa-shower footer-menu-icons"></i> Spa Hotels</a></li>
+                        <li><a href="adventure.html"><i class="fa-solid fa-person-hiking footer-menu-icons"></i> Adventure Hotels</a> </li>
+                        <li><a href="casino.html"> <i class="fa-solid fa-dice footer-menu-icons"></i>Casino Hotels</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="copyright py-4">
+                <p>Copyright &copy; 2024 <span style="font-weight: 700; color:#ff009c">maplestayz.com</span> All rights
+                    reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
     <script src="./assets/js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
