@@ -1114,6 +1114,11 @@ margin-left: 16px;
   margin-bottom: 10px;
   color: #ff009c;
 }
+.terms-conditions-group h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
 .terms-conditions-group .odd-heading{
   font-family: "Raleway", sans-serif; 
   font-size: 22px;  
