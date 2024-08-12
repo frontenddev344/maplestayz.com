@@ -1100,3 +1100,36 @@ margin-left: 16px;
 }
 
 /* Contact Us Page CSS End */
+
+/* Terms and Conditions CSS Start */
+.terms-conditions-group {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  overflow: none;
+}
+.terms-conditions-group h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ff009c;
+}
+.terms-conditions-group .odd-heading{
+  font-family: "Raleway", sans-serif; 
+  font-size: 22px;  
+}
+.terms-conditions-group p {
+   margin-bottom: 10px;
+}
+.terms-conditions-group p a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.2s all ease-in-out;
+}
+.terms-conditions-group p a:hover{
+  color: #ff009c;
+  transform: translateX(2px);
+}
+
+/* Terms and Conditions CSS End*/
