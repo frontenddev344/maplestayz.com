@@ -133,6 +133,10 @@
         height: 220px;
     }
 
+    .home-page-cards-section {
+        padding: 60px 0;
+    }
+
     .home-page-cards-content a h3 {
         font-size: 40px;
     }
@@ -163,6 +167,7 @@
     .accordion-body {
         font-size: 14px;
     }
+
     .accordion-item .accordion-header .accordion-button {
         font-size: 15px;
     }
@@ -176,8 +181,9 @@
     .footer-items h3 {
         font-size: 45px;
     }
+
     .accordion-button::after {
-             font-size: 13px;
+        font-size: 13px;
     }
 }
 
@@ -267,9 +273,10 @@
     .accordion-item .accordion-header .accordion-button {
         font-size: 14px;
     }
+
     .accordion-button::after {
         font-size: 12px;
-}
+    }
 
 
 
