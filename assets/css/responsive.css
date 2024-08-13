@@ -242,6 +242,10 @@
     .pages-cards-image {
         height: 230px;
     }
+    .pages-signup-wrapper h3 {
+        font-size: 20px;
+        max-width: 500px;
+     }
     /* Pages CSS End */
 
 }
@@ -333,7 +337,10 @@
     .accordion-button::after {
         font-size: 12px;
     }
-
+    .footer-links,.footer-quick-links {
+        width: 50%;
+        
+    }
 
     .footer-items h3 {
         font-size: 40px;
@@ -380,6 +387,11 @@
     }
     .pages-cards-group h2 {
         font-size: 38px;
+    }
+    .pages-signup-wrapper h3 {
+        font-size: 18px;
+        max-width: 400px;
+        font-weight: 600;
     }
     /* Pages CSS End */
 }
