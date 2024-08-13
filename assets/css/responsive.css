@@ -71,9 +71,7 @@
         height: 270px;
     }
 
-    .home-page-featured-cards {
-        min-height: 725px;
-    }
+  
 
     .home-page-featured-cards-group h3 {
         font-size: 35px;
@@ -150,7 +148,7 @@
     }
 
     .home-page-featured-cards {
-        min-height: 100%;
+        height: 100%;
         margin-bottom: 30px;
     }
 

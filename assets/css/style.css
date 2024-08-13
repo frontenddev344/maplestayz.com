@@ -474,6 +474,7 @@ input.pages-signup-input {
   border: 1px solid #ff009c;
   border-radius: 10px;
   overflow: hidden;
+  height: 100%;
 }
 
 .home-page-featured-cards-group {
