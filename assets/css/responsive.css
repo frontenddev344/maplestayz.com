@@ -107,9 +107,10 @@
     .disclaimer-wrapper p {
         font-size: 15px;
     }
+
     .footer .footer-items ul li a {
         font-size: 16px;
- }
+    }
 
     /* Pages CSS Start */
     .pages-banner-text h3 {
@@ -172,6 +173,18 @@
 
     /* Privacy Policy Page CSS End */
 
+         /* Terms Conditions CSS Start */
+         .terms-conditions-group p ,    .terms-conditions-group ul li {
+            font-size: 15px;
+        }
+        .terms-conditions-group .odd-heading {
+            font-size: 18px;
+        }
+        .terms-conditions-group h4 {
+            font-size: 17px;
+        }
+
+        /* Terms Conditions CSS End */
 
 
 
@@ -287,10 +300,11 @@
         font-size: 20px;
         max-width: 500px;
     }
+
     .copyright p {
         font-size: 14px;
     }
-   
+
 
     /* Pages CSS End */
 
@@ -342,12 +356,26 @@
         font-weight: 500;
         font-size: 16px;
     }
-    .privacy-policy-group {
-          padding: 15px;
-    }
-       
 
+    .privacy-policy-group {
+        padding: 15px;
+    }
     /* Privacy Policy Page CSS End */
+
+       /* Terms Conditions CSS Start */
+       .terms-conditions-group h3 {
+        font-size: 40px;
+    }
+    .terms-conditions-group p ,    .terms-conditions-group ul li {
+        font-size: 14px;
+    }
+    .terms-conditions-group .odd-heading {
+        font-size: 16px;
+    }
+    .terms-conditions-group h4 {
+        font-size: 16px;
+    }
+    /* Terms Conditions CSS End */
 
 }
 
@@ -448,9 +476,10 @@
     .footer-items h3 {
         font-size: 40px;
     }
+
     .footer .footer-items ul li a {
         font-size: 15px;
- }
+    }
 
     .logo-bottom {
         width: 100%;
@@ -460,6 +489,7 @@
     .logo-bottom img {
         max-width: 180px;
     }
+
     .copyright p {
         font-size: 13px;
     }
@@ -562,6 +592,22 @@
     }
 
     /* Privacy Policy Page CSS End */
+
+    
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 35px;
+    }
+    .terms-conditions-group p ,    .terms-conditions-group ul li {
+        font-size: 13px;
+    }
+    .terms-conditions-group .odd-heading {
+        font-size: 15px;
+    }
+    .terms-conditions-group h4 {
+        font-size: 15px;
+    }
+    /* Terms Conditions CSS End*/
 }
 
 
@@ -663,6 +709,7 @@
     .footer-wrapper {
         justify-content: center;
     }
+
     .copyright p {
         font-size: 12px;
     }
@@ -743,8 +790,23 @@
     .privacy-policy-group ul li {
         font-size: 13px;
     }
-    .privacy-policy-group p a{
-    font-size: 14px;
-  }
+
+    .privacy-policy-group p a {
+        font-size: 14px;
+    }
+
     /* Privacy Policy Page CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 30px;
+    }
+    .terms-conditions-group p ,    .terms-conditions-group ul li {
+        font-size: 12px;
+    }
+    .terms-conditions-group .odd-heading {
+        font-size: 14px;
+    }
+ 
+    /* Terms Conditions CSS Start */
 }
