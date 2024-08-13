@@ -46,14 +46,32 @@
         text-align: end;
         z-index: 55;
     }
+    .banner-text h1 {
+        font-size: 85px;
+    }
 
+    .banner-text h2 {
+        font-size: 40px;
+    }
+    .banner-image {
+        height: 570px;
+         }
 
 
 
 }
 
 @media screen and (max-width:767px) {
+    .banner-text h1 {
+        font-size: 80px;
+    }
 
+    .banner-text h2 {
+        font-size: 35px;
+    }
+    .banner-image {
+        height: 500px;
+         }
 
 
 
@@ -79,6 +97,16 @@
         font-size: 22px;
     }
 
+    .banner-text h1 {
+        font-size: 70px;
+    }
+
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-image {
+        height: 400px;
+         }
 
 
 
@@ -106,6 +134,13 @@
     .logo img {
         max-width: 150px;
     }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-image {
+        height: 330px;
+         }
 
 
 
