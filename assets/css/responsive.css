@@ -46,6 +46,7 @@
         text-align: end;
         z-index: 55;
     }
+
     .banner-text h1 {
         font-size: 85px;
     }
@@ -53,10 +54,28 @@
     .banner-text h2 {
         font-size: 40px;
     }
+
     .banner-image {
         height: 570px;
-         }
+    }
 
+    .home-page-intro p {
+        font-size: 15px;
+    }
+
+    .home-page-cards-content a h3 {
+        font-size: 45px;
+    }
+    input.pages-signup-input {
+        width: 50%;
+        font-size: 15px;
+        padding: 7px 15px;
+    }
+    .pages-signup-submit-button {
+        padding: 7px 22px;
+        font-size: 15px;
+        margin: 10px auto;
+    }
 
 
 }
@@ -69,12 +88,22 @@
     .banner-text h2 {
         font-size: 35px;
     }
+
     .banner-image {
         height: 500px;
-         }
+    }
 
+    .home-page-intro p {
+        font-size: 14px;
+    }
 
-
+    .home-page-cards-content a h3 {
+        font-size: 40px;
+    }
+    input.pages-signup-input {
+        width: 60%;
+       }
+  
 
 
     .footer-items {
@@ -104,8 +133,34 @@
     .banner-text h2 {
         font-size: 30px;
     }
+
     .banner-image {
         height: 400px;
+    }
+
+    .home-page-intro p {
+        font-size: 13px;
+    }
+
+    .home-page-cards-section {
+        padding: 50px 0;
+    }
+
+    .home-page-cards-content a h3 {
+        font-size: 45px;
+    }
+
+    /* .home-page-cards-wrapper .row .col-sm-6:last-child .home-page-cards {
+        margin-bottom: 0;
+    } */
+    input.pages-signup-input {
+        width: 90%;
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    .pages-signup-submit-button {
+        padding: 8px 22px;
+        font-size: 14px;
          }
 
 
@@ -138,11 +193,38 @@
     .banner-text h1 {
         font-size: 60px;
     }
+
     .banner-image {
         height: 330px;
+    }
+
+    .home-page-intro p {
+        font-size: 12px;
+    }
+
+    .home-page-cards-content a h3 {
+        font-size: 40px;
+    }
+
+    .home-page-cards {
+        height: 200px;
+    }
+
+    .pages-signup-wrapper h3 {
+        font-size: 15px;
+        max-width: 300px;
+        font-weight: 600;
+    }
+
+    input.pages-signup-input {
+             font-size: 13px;
+        padding: 7px 15px;
+    }
+
+    .pages-signup-submit-button {
+        padding: 7px 20px;
+        font-size: 13px;
          }
-
-
 
 
 
