@@ -575,7 +575,7 @@ section.pages-blog-cards {
 }
 
 .blog-cards-content {
-  padding: 15px 10px;
+  padding: 20px;
   position: absolute;
   background: rgba(0 0 0/80%);
   background-blend-mode: multiply;
@@ -589,7 +589,7 @@ section.pages-blog-cards {
 }
 
 .page-blog-cards:hover .blog-cards-content {
-  top: 45%;
+  top: 40%;
   opacity: 1;
   visibility: visible;
 }
