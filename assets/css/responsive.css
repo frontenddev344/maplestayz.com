@@ -103,7 +103,12 @@
     .disclaimer-wrapper p {
         font-size: 15px;
     }
+/* Pages CSS Start */
 
+.pages-intro-section p {
+    font-size: 15px;
+}
+/* Pages CSS End */
 
 
 
@@ -183,6 +188,13 @@
     .accordion-button::after {
         font-size: 13px;
     }
+/* Pages CSS Start */
+
+.pages-intro-section p {
+    font-size: 14px;
+}
+/* Pages CSS End */
+
 }
 
 
@@ -296,7 +308,9 @@
     max-width: 250px;
     margin: 0 auto;
 }
-
+.pages-intro-section p {
+    font-size: 13px;
+}
 /* Pages CSS End */
 }
 
@@ -398,6 +412,9 @@
 /* Pages CSS Start */
 .pages-banner-text h3 {
     font-size: 27px;
+}
+.pages-intro-section p {
+    font-size: 12px;
 }
 
 
