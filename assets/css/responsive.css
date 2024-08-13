@@ -124,15 +124,23 @@
         max-width: 450px;
         margin: 0 auto;
     }
+
     .pages-cards-group p,
     .pages-cards-group ul li {
         font-size: 15px;
     }
+
     .pages-cards-group h2 {
         font-size: 40px;
     }
 
     /* Pages CSS End */
+
+    /* Contact Us Page CSS Start */
+
+
+    /* Contact Us Page CSS Start */
+
 
 
 
@@ -235,18 +243,39 @@
     .pages-cards-content {
         padding: 20px 0;
     }
+
     .pages-cards-group p,
     .pages-cards-group ul li {
         font-size: 14px;
     }
+
     .pages-cards-image {
         height: 230px;
     }
+
     .pages-signup-wrapper h3 {
         font-size: 20px;
         max-width: 500px;
-     }
+    }
+
     /* Pages CSS End */
+
+    /* Contact Us Page CSS Start */
+    .contact-us-group h3 {
+        font-size: 45px;
+    }
+    .contact-us-group p,
+    .contact-us-group ul li {
+        font-size: 15px;
+    }
+
+    .contact-us-group ul li a,
+    .contact-us-group p a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* Contact Us Page CSS Start */
 
 }
 
@@ -337,9 +366,11 @@
     .accordion-button::after {
         font-size: 12px;
     }
-    .footer-links,.footer-quick-links {
+
+    .footer-links,
+    .footer-quick-links {
         width: 50%;
-        
+
     }
 
     .footer-items h3 {
@@ -378,22 +409,41 @@
         font-size: 40px;
         max-width: 300px;
     }
+
     .pages-cards-group p,
     .pages-cards-group ul li {
         font-size: 13px;
     }
+
     .pages-cards-image {
         height: 200px;
     }
+
     .pages-cards-group h2 {
         font-size: 38px;
     }
+
     .pages-signup-wrapper h3 {
         font-size: 18px;
         max-width: 400px;
         font-weight: 600;
     }
+
     /* Pages CSS End */
+    /* Contact Us Page CSS Start */
+    .contact-us-group h3 {
+        font-size: 40px;
+    }
+    .contact-us-group p,
+    .contact-us-group ul li {
+        font-size: 14px;
+    }
+
+    .contact-us-group ul li a,
+    .contact-us-group p a {
+        font-size: 15px;
+    }
+    /* Contact Us Page CSS Start */
 }
 
 
@@ -525,4 +575,20 @@
     }
 
     /* Pages CSS End */
+
+    /* Contact Us Page CSS Start */
+    .contact-us-group h3 {
+        font-size: 35px;
+    }
+
+    .contact-us-group p,
+    .contact-us-group ul li {
+        font-size: 13px;
+    }
+    .contact-us-group ul li a,
+    .contact-us-group p a {
+        font-size: 14px;
+    }
+
+    /* Contact Us Page CSS Start */
 }
