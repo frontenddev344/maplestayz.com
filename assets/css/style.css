@@ -540,8 +540,7 @@ section.pages-blog-cards {
   background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
   border: 5px solid #ff009c;
-  max-height: 300px;
-  height: 100%;
+  height: 300px;
   overflow: hidden;
 }
 

@@ -71,6 +71,10 @@
         height: 270px;
     }
 
+    .page-blog-cards {
+        height: 270px;
+    }
+
 
 
     .home-page-featured-cards-group h3 {
@@ -103,12 +107,14 @@
     .disclaimer-wrapper p {
         font-size: 15px;
     }
-/* Pages CSS Start */
 
-.pages-intro-section p {
-    font-size: 15px;
-}
-/* Pages CSS End */
+    /* Pages CSS Start */
+
+    .pages-intro-section p {
+        font-size: 15px;
+    }
+
+    /* Pages CSS End */
 
 
 
@@ -133,6 +139,10 @@
     }
 
     .home-page-cards {
+        height: 220px;
+    }
+
+    .page-blog-cards {
         height: 220px;
     }
 
@@ -188,12 +198,14 @@
     .accordion-button::after {
         font-size: 13px;
     }
-/* Pages CSS Start */
 
-.pages-intro-section p {
-    font-size: 14px;
-}
-/* Pages CSS End */
+    /* Pages CSS Start */
+
+    .pages-intro-section p {
+        font-size: 14px;
+    }
+
+    /* Pages CSS End */
 
 }
 
@@ -231,9 +243,6 @@
         font-size: 45px;
     }
 
-    /* .home-page-cards-wrapper .row .col-sm-6:last-child .home-page-cards {
-        margin-bottom: 0;
-    } */
     input.pages-signup-input {
         width: 90%;
         font-size: 14px;
@@ -298,20 +307,23 @@
         margin-bottom: 40px;
     }
 
-/* Pages CSS Start */
-.pages-banner-text h1 {
-    font-size: 60px;
-    margin-top: 70px;
-}
-.pages-banner-text h3 {
-    font-size: 30px;
-    max-width: 250px;
-    margin: 0 auto;
-}
-.pages-intro-section p {
-    font-size: 13px;
-}
-/* Pages CSS End */
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+
+    .pages-banner-text h3 {
+        font-size: 30px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .pages-intro-section p {
+        font-size: 13px;
+    }
+
+    /* Pages CSS End */
 }
 
 
@@ -329,7 +341,7 @@
         margin-top: 70px;
     }
 
-  
+
 
     .banner-image {
         height: 330px;
@@ -344,6 +356,10 @@
     }
 
     .home-page-cards {
+        height: 200px;
+    }
+
+    .page-blog-cards {
         height: 200px;
     }
 
@@ -409,14 +425,19 @@
     .footer-wrapper {
         justify-content: center;
     }
-/* Pages CSS Start */
-.pages-banner-text h3 {
-    font-size: 27px;
-}
-.pages-intro-section p {
-    font-size: 12px;
-}
 
+    /* Pages CSS Start */
+    .pages-banner-text h3 {
+        font-size: 27px;
+    }
 
-/* Pages CSS End */
+    .pages-intro-section p {
+        font-size: 12px;
+    }
+
+    .pages-cards-wrapper .section-heading {
+        font-size: 35px;
+    }
+
+    /* Pages CSS End */
 }
