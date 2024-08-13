@@ -31,7 +31,12 @@
     .menu-bar ul li a.active {
         color: #ff009c;
     }
-
+    .fixed-header .main-navbar ul li a:not(.active) {
+        color: #fff;
+      }
+      .fixed-header .main-navbar ul li a.active {
+        color: #ff009c;
+      }
 
     .menu-icon {
         display: block;
