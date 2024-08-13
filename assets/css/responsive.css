@@ -413,7 +413,7 @@
     /* Blog Pages CSS Start */
     .blog-banner-text h2 {
         margin-top: 90px;
-        max-width: 400px;
+        max-width: 440px;
         margin: 0 auto;
         font-size: 40px;
     }
@@ -668,7 +668,7 @@
 
     /* Blog Pages CSS Start */
     .blog-banner-text h2 {
-        max-width: 350px;
+        max-width: 390px;
         margin: 0 auto;
         font-size: 35px;
     }
@@ -904,7 +904,7 @@
         font-size: 12px;
     }
     .blog-page-cards h3 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .blog-page-cards {
         min-height: 210px;
