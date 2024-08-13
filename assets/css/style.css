@@ -181,6 +181,7 @@ img {
 /* Banner Section CSS Start */
 .banner {
   position: relative;
+  overflow: hidden;
 }
 
 .banner-image {
@@ -279,6 +280,7 @@ img {
   background-color: rgba(0 0 0/30%);
   background-blend-mode: multiply;
   padding: 80px 0 50px 0;
+  overflow: hidden;
 }
 
 .home-page-cards {
@@ -413,6 +415,7 @@ input.pages-signup-input {
   isolation: isolate;
   background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
+  overflow: hidden;
 }
 
 .subpage-exp-content {
@@ -520,6 +523,9 @@ input.pages-signup-input {
 /* Home Page Featured Cards CSS End */
 
 /* Page Blog Cards CSS Start */
+section.pages-blog-cards {
+  overflow: hidden;
+}
 .page-blog-cards {
   position: relative;
   overflow: hidden;
@@ -595,7 +601,7 @@ input.pages-signup-input {
 
 /* Pages Disclaimer Section CSS Start */
 .disclaimer-wrapper p {
-  border: 1px solid #ff009c;
+  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
   padding: 20px;
 }
 
@@ -674,7 +680,7 @@ input.pages-signup-input {
 
 /* Footer CSS Start */
 .footer {
-  background-image: url("../images/footer-bg.jpg");
+  background-image: url("../images/footer-bg1.png");
   background-color: rgba(0 0 0/75%);
   background-position: center;
   background-blend-mode: multiply;
@@ -1138,3 +1144,29 @@ margin-left: 16px;
 }
 
 /* Terms and Conditions CSS End*/
+
+/* Blog Pages CSS Start */
+.blog-page-cards {
+  margin-bottom: 30px;
+  padding: 15px;
+  min-height: 230px;
+  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+}
+.blog-page-cards h3{
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: #ff009c;
+}
+.blog-page-cards-wrapper>h2{
+  font-size: 50px;
+  border: 1px solid #ff009c;
+  padding: 10px;
+}
+.blog-page-cards-wrapper>p{
+  max-width: 950px;
+  margin: auto;
+}
+
+
+
+/* Blog Pages CSS End */
