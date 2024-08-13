@@ -71,7 +71,7 @@
         height: 270px;
     }
 
-  
+
 
     .home-page-featured-cards-group h3 {
         font-size: 35px;
@@ -276,22 +276,15 @@
         font-size: 12px;
     }
 
-
-
-    .footer-items {
-        width: 50%;
-    }
-
+ 
     .footer-items h3 {
         font-size: 40px;
-
     }
 
     .logo-bottom {
         width: 100%;
         margin-bottom: 40px;
-        max-width: 180px;
-    }
+        }
 
 }
 
@@ -378,6 +371,10 @@
 
     .footer-items:last-child {
         margin-bottom: 0;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
     }
 
 
