@@ -109,9 +109,20 @@
     }
 
     /* Pages CSS Start */
+    .pages-banner-text h3 {
+        font-size: 35px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
 
     .pages-intro-section p {
         font-size: 15px;
+    }
+
+    .pages-cards-wrapper .section-heading {
+        font-size: 60px;
+        max-width: 450px;
+        margin: 0 auto;
     }
 
     /* Pages CSS End */
@@ -203,6 +214,15 @@
 
     .pages-intro-section p {
         font-size: 14px;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 70px;
+    }
+
+    .pages-cards-wrapper .section-heading {
+        font-size: 45px;
+        max-width: 350px;
     }
 
     /* Pages CSS End */
@@ -306,8 +326,9 @@
         width: 100%;
         margin-bottom: 40px;
     }
+
     .logo-bottom img {
-         max-width: 180px;
+        max-width: 180px;
     }
 
     /* Pages CSS Start */
@@ -319,11 +340,20 @@
     .pages-banner-text h3 {
         font-size: 30px;
         max-width: 250px;
-        margin: 0 auto;
     }
 
     .pages-intro-section p {
         font-size: 13px;
+    }
+
+    .pages-cards {
+        padding: 10px;
+    }
+
+    .pages-cards-wrapper .section-heading {
+        font-size: 40px;
+        max-width: 300px;
+
     }
 
     /* Pages CSS End */
@@ -440,6 +470,12 @@
 
     .pages-cards-wrapper .section-heading {
         font-size: 35px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .pages-cards-image {
+        height: 200px;
     }
 
     /* Pages CSS End */
