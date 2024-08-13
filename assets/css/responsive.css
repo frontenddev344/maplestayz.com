@@ -201,12 +201,15 @@
         max-width: 490px;
         margin: 0 auto;
     }
+
     .blog-page-cards-wrapper>p {
         font-size: 15px;
     }
+
     .blog-page-cards p {
         font-size: 15px;
     }
+
     .blog-page-cards h3 {
         font-size: 43px;
     }
@@ -242,12 +245,25 @@
         height: 220px;
     }
 
+    .page-blog-cards:hover .blog-cards-content {
+        top: 0%;
+        opacity: 1;
+        visibility: visible;
+    }
+
     .home-page-cards-section {
         padding: 60px 0;
     }
 
     .home-page-cards-content a h3 {
         font-size: 40px;
+    }
+    .blog-card-btn {
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+    .blog-cards-content p {
+        font-size: 12px;
     }
 
     input.pages-signup-input {
@@ -417,12 +433,15 @@
         margin: 0 auto;
         font-size: 40px;
     }
+
     .blog-page-cards-wrapper>p {
         font-size: 14px;
     }
+
     .blog-page-cards p {
         font-size: 14px;
     }
+
     .blog-page-cards h3 {
         font-size: 41px;
     }
@@ -470,6 +489,17 @@
         font-size: 14px;
         padding: 7px 15px;
     }
+
+    .blog-cards-content h3 {
+        font-size: 24px;
+    }
+
+    .blog-cards-content p {
+        font-size: 13px;
+    }
+
+   
+
 
     .pages-signup-submit-button {
         padding: 8px 22px;
@@ -672,18 +702,23 @@
         margin: 0 auto;
         font-size: 35px;
     }
+
     .blog-page-cards-wrapper>p {
         font-size: 13px;
     }
+
     .blog-page-cards p {
         font-size: 13px;
     }
+
     .blog-page-cards h3 {
         font-size: 38px;
     }
+
     .blog-page-cards {
-         min-height: 190px;
-      }
+        min-height: 190px;
+    }
+
     /* Blog Pages CSS End */
 
 }
@@ -779,6 +814,7 @@
         text-align: center;
         margin-bottom: 40px;
     }
+
     .footer-items h3 {
         font-size: 35px;
     }
@@ -900,18 +936,23 @@
         font-size: 28px;
         max-width: 300px;
     }
+
     .blog-page-cards-wrapper>p {
         font-size: 12px;
     }
+
     .blog-page-cards p {
         font-size: 12px;
     }
+
     .blog-page-cards h3 {
         font-size: 30px;
     }
+
     .blog-page-cards {
         min-height: 210px;
     }
+
     /* Blog Pages CSS End */
 
 }
