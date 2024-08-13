@@ -66,16 +66,48 @@
     .home-page-cards-content a h3 {
         font-size: 45px;
     }
+
+    .home-page-cards {
+        height: 270px;
+    }
+
+    .home-page-featured-cards {
+        min-height: 725px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 35px;
+    }
+
+    .home-page-featured-cards-group ul li,
+    .home-page-featured-cards-group p {
+        font-size: 15px;
+    }
+
     input.pages-signup-input {
         width: 50%;
         font-size: 15px;
         padding: 7px 15px;
     }
+
     .pages-signup-submit-button {
         padding: 7px 22px;
         font-size: 15px;
         margin: 10px auto;
     }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 15px;
+    }
+
+
+
 
 
 }
@@ -97,13 +129,44 @@
         font-size: 14px;
     }
 
+    .home-page-cards {
+        height: 220px;
+    }
+
     .home-page-cards-content a h3 {
         font-size: 40px;
     }
+
     input.pages-signup-input {
         width: 60%;
-       }
-  
+    }
+
+    .section-heading {
+        font-size: 70px;
+    }
+
+    .home-page-featured-cards {
+        min-height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .home-page-featured-cards-group ul li,
+    .home-page-featured-cards-group p {
+        font-size: 14px;
+    }
+
+    .disclaimer-wrapper p {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+    .accordion-item .accordion-header .accordion-button {
+        font-size: 15px;
+    }
+
 
 
     .footer-items {
@@ -113,7 +176,9 @@
     .footer-items h3 {
         font-size: 45px;
     }
-
+    .accordion-button::after {
+             font-size: 13px;
+    }
 }
 
 
@@ -158,12 +223,53 @@
         font-size: 14px;
         padding: 7px 15px;
     }
+
     .pages-signup-submit-button {
         padding: 8px 22px;
         font-size: 14px;
-         }
+    }
 
+    .section-heading {
+        font-size: 60px;
+    }
 
+    .home-page-featured-cards-image {
+        height: 220px;
+    }
+
+    .home-page-featured-cards-content {
+        padding: 15px 5px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 30px;
+    }
+
+    .home-page-featured-cards-group p,
+    .home-page-featured-cards-group ul li {
+        font-size: 13px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 13px;
+    }
+
+    .accordion-body {
+        font-size: 13px;
+    }
+
+    .accordion-item .accordion-header .accordion-button {
+        font-size: 14px;
+    }
+    .accordion-button::after {
+        font-size: 12px;
+}
 
 
 
@@ -217,18 +323,39 @@
     }
 
     input.pages-signup-input {
-             font-size: 13px;
+        font-size: 13px;
         padding: 7px 15px;
     }
 
     .pages-signup-submit-button {
         padding: 7px 20px;
         font-size: 13px;
-         }
+    }
 
+    .section-heading {
+        font-size: 50px;
+    }
 
+    .home-page-featured-cards-image {
+        height: 180px;
+    }
 
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        font-size: 13px;
+    }
 
+    .home-page-featured-cards {
+        padding: 8px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 12px;
+    }
+
+    .accordion-body {
+        font-size: 12px;
+    }
 
 
 
