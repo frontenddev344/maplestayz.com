@@ -306,6 +306,9 @@
         width: 100%;
         margin-bottom: 40px;
     }
+    .logo-bottom img {
+         max-width: 180px;
+    }
 
     /* Pages CSS Start */
     .pages-banner-text h1 {
