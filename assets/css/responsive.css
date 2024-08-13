@@ -286,6 +286,18 @@
         margin-bottom: 40px;
     }
 
+/* Pages CSS Start */
+.pages-banner-text h1 {
+    font-size: 60px;
+    margin-top: 70px;
+}
+.pages-banner-text h3 {
+    font-size: 30px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+/* Pages CSS End */
 }
 
 
@@ -303,11 +315,7 @@
         margin-top: 70px;
     }
 
-    .pages-banner-text h3 {
-        font-size: 30px;
-        max-width: 250px;
-        margin: 0 auto;
-    }
+  
 
     .banner-image {
         height: 330px;
@@ -370,10 +378,6 @@
         font-size: 12px;
     }
 
-
-
-
-
     .social-icons {
         justify-content: center;
     }
@@ -391,6 +395,11 @@
     .footer-wrapper {
         justify-content: center;
     }
+/* Pages CSS Start */
+.pages-banner-text h3 {
+    font-size: 27px;
+}
 
 
+/* Pages CSS End */
 }
