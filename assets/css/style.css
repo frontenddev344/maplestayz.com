@@ -134,9 +134,7 @@ img {
   font-weight: 500;
 }
 
-.main-navbar ul li a.active {
-  color: #ff009c;
-}
+
 
 .main-navbar ul li a:after {
   display: block;
@@ -147,9 +145,11 @@ img {
   height: 10px;
 }
 
-.main-navbar ul li a:hover:after,
-.main-navbar ul li a.active:after {
+.main-navbar ul li a:hover:after,.main-navbar ul li a.active:after {
   transform: scaleX(1);
+ }
+ .main-navbar ul li a.active {
+  color: #ff009c;
 }
 
 .close-icon {

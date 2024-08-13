@@ -62,6 +62,7 @@
     .footer-items {
         padding: 0;
     }
+
     .footer-items h3 {
         font-size: 45px;
     }
@@ -72,6 +73,10 @@
 @media screen and (max-width:575px) {
     .logo img {
         max-width: 170px;
+    }
+
+    .menu-icon {
+        font-size: 22px;
     }
 
 
@@ -112,16 +117,17 @@
 
 
 
-.social-icons{
-    justify-content: center;
-}
+    .social-icons {
+        justify-content: center;
+    }
 
     .footer-items {
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
     }
-    .footer-items:last-child{
+
+    .footer-items:last-child {
         margin-bottom: 0;
     }
 
