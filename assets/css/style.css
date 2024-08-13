@@ -818,11 +818,11 @@ section.pages-blog-cards {
 /* Social Icons CSS End */
 
 /* Pages Banner CSS Start */
-.pages-banner-image {
+/* .pages-banner-image {
   height: 550px;
   width: 100%;
   overflow: hidden;
-}
+} */
 
 .pages-banner-image img {
   object-fit: cover;

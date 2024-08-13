@@ -276,7 +276,7 @@
         font-size: 12px;
     }
 
- 
+
     .footer-items h3 {
         font-size: 40px;
     }
@@ -284,7 +284,7 @@
     .logo-bottom {
         width: 100%;
         margin-bottom: 40px;
-        }
+    }
 
 }
 
@@ -296,6 +296,17 @@
 
     .banner-text h1 {
         font-size: 60px;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 55px;
+        margin-top: 70px;
+    }
+
+    .pages-banner-text h3 {
+        font-size: 30px;
+        max-width: 250px;
+        margin: 0 auto;
     }
 
     .banner-image {
@@ -312,6 +323,10 @@
 
     .home-page-cards {
         height: 200px;
+    }
+
+    .home-page-cards-wrapper>.row .col-sm-6:last-child .home-page-cards {
+        margin-bottom: 0;
     }
 
     .pages-signup-wrapper h3 {
