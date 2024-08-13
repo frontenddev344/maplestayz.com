@@ -1187,3 +1187,52 @@ margin-left: 16px;
   margin: auto;
 }
 /* Blog Pages CSS End */
+
+
+/* Cookies CSS Start */
+.wrapper {
+  position: fixed;
+   bottom:-100%;
+  width: 100%;
+    background-color:#ea62b5;
+   padding: 15px 25px 22px;
+  transition: all 1s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper.show {
+  bottom: 0;
+}
+.info {
+  margin-bottom: 15px;
+}
+.info p {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap:10px;
+}
+.button {
+  width: calc(30% / 2 - 10px);
+  padding: 8px 0;
+  border: none;
+  border-radius: 4px;
+background-color: #FFF;
+  color: #ff009c;
+  cursor: pointer;
+  transition: all 0.7s ease;
+   font-weight: 600;
+   border: 1px solid #fff;
+}
+.button:hover {
+ background-color: #ee71be;
+  /* background: linear-gradient(to top, #01889f , #406fe6); */
+color:#fff;
+}
+/* Cookies CSS End */
+
