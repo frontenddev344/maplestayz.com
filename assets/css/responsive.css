@@ -858,11 +858,9 @@
     .footer-items h3 {
         font-size: 35px;
     }
-
     .footer-items:last-child {
         margin-bottom: 0;
     }
-
     .footer-wrapper {
         justify-content: center;
     }
