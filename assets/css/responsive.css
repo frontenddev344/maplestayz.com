@@ -124,6 +124,10 @@
         max-width: 450px;
         margin: 0 auto;
     }
+    .pages-cards-group p,
+    .pages-cards-group ul li {
+        font-size: 15px;
+    }
 
     /* Pages CSS End */
 
@@ -225,6 +229,16 @@
         max-width: 350px;
     }
 
+    .pages-cards-content {
+        padding: 20px 0;
+    }
+    .pages-cards-group p,
+    .pages-cards-group ul li {
+        font-size: 14px;
+    }
+    .pages-cards-image {
+        height: 230px;
+    }
     /* Pages CSS End */
 
 }
@@ -353,9 +367,17 @@
     .pages-cards-wrapper .section-heading {
         font-size: 40px;
         max-width: 300px;
-
     }
-
+    .pages-cards-group p,
+    .pages-cards-group ul li {
+        font-size: 13px;
+    }
+    .pages-cards-image {
+        height: 200px;
+    }
+    .pages-cards-group h2 {
+        font-size: 38px;
+    }
     /* Pages CSS End */
 }
 
@@ -475,7 +497,16 @@
     }
 
     .pages-cards-image {
-        height: 200px;
+        height: 180px;
+    }
+
+    .pages-cards-group h2 {
+        font-size: 33px;
+    }
+
+    .pages-cards-group p,
+    .pages-cards-group ul li {
+        font-size: 12px;
     }
 
     /* Pages CSS End */
