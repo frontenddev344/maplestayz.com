@@ -215,17 +215,17 @@
     }
 
     /* Blog Pages CSS End */
-  /* Cookies CSS Start */
-  .info p {
-    font-size: 14px;
-}
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 14px;
+    }
 
-.button {
-    width: calc(55% / 2 - 10px);
-    font-size: 14px;
-}
+    .button {
+        width: calc(55% / 2 - 10px);
+        font-size: 14px;
+    }
 
-/* Cookies CSS End */
+    /* Cookies CSS End */
 
 
 }
@@ -268,10 +268,12 @@
     .home-page-cards-content a h3 {
         font-size: 40px;
     }
+
     .blog-card-btn {
         padding: 7px 15px;
         font-size: 13px;
     }
+
     .blog-cards-content p {
         font-size: 12px;
     }
@@ -458,7 +460,7 @@
 
     /* Blog Pages CSS End */
 
-    
+
     /* Cookies CSS Start */
     .wrapper {
         padding: 20px 10px;
@@ -469,7 +471,7 @@
     }
 
     .button {
-               font-size: 13px;
+        font-size: 13px;
         padding: 6px;
     }
 
@@ -525,7 +527,7 @@
         font-size: 13px;
     }
 
-   
+
 
 
     .pages-signup-submit-button {
@@ -747,17 +749,17 @@
     }
 
     /* Blog Pages CSS End */
-        /* Cookies CSS Start */
-        .info p {
-            font-size: 13px;
-        }
-    
-        .button {
-            width: calc(50% / 2 - 10px);
-            font-size: 13px;
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        width: calc(50% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 
 }
 
@@ -993,21 +995,20 @@
 
     /* Blog Pages CSS End */
 
-        /* Cookies CSS Start */
-        .info p {
-            font-size: 12px;
-        }
-    
-        .buttons {
-            gap: 10px;
-        }
-    
-        .button {
-            width: calc(80% / 2 - 10px);
-            font-size: 13px;
-    
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 12px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .button {
+        width: calc(80% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 
 }
