@@ -933,6 +933,12 @@ section.pages-blog-cards {
   list-style-type: disc;
   margin-left: 17px;
 }
+.privacy-policy-group p a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.2s all ease-in-out;
+}
 
 .privacy-policy-group ul {
   margin: 10px auto;
