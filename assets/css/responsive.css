@@ -31,12 +31,14 @@
     .menu-bar ul li a.active {
         color: #ff009c;
     }
+
     .fixed-header .main-navbar ul li a:not(.active) {
         color: #fff;
-      }
-      .fixed-header .main-navbar ul li a.active {
+    }
+
+    .fixed-header .main-navbar ul li a.active {
         color: #ff009c;
-      }
+    }
 
     .menu-icon {
         display: block;
@@ -178,18 +180,38 @@
 
     /* Privacy Policy Page CSS End */
 
-         /* Terms Conditions CSS Start */
-         .terms-conditions-group p ,    .terms-conditions-group ul li {
-            font-size: 15px;
-        }
-        .terms-conditions-group .odd-heading {
-            font-size: 18px;
-        }
-        .terms-conditions-group h4 {
-            font-size: 17px;
-        }
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
+        font-size: 15px;
+    }
 
-        /* Terms Conditions CSS End */
+    .terms-conditions-group .odd-heading {
+        font-size: 18px;
+    }
+
+    .terms-conditions-group h4 {
+        font-size: 17px;
+    }
+
+    /* Terms Conditions CSS End */
+
+    /* Blog Pages CSS Start */
+    .blog-banner-text h2 {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .blog-page-cards-wrapper>p {
+        font-size: 15px;
+    }
+    .blog-page-cards p {
+        font-size: 15px;
+    }
+    .blog-page-cards h3 {
+        font-size: 43px;
+    }
+
+    /* Blog Pages CSS End */
 
 
 
@@ -365,22 +387,47 @@
     .privacy-policy-group {
         padding: 15px;
     }
+
     /* Privacy Policy Page CSS End */
 
-       /* Terms Conditions CSS Start */
-       .terms-conditions-group h3 {
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
         font-size: 40px;
     }
-    .terms-conditions-group p ,    .terms-conditions-group ul li {
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 14px;
     }
+
     .terms-conditions-group .odd-heading {
         font-size: 16px;
     }
+
     .terms-conditions-group h4 {
         font-size: 16px;
     }
+
     /* Terms Conditions CSS End */
+
+    /* Blog Pages CSS Start */
+    .blog-banner-text h2 {
+        margin-top: 90px;
+        max-width: 400px;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+    .blog-page-cards-wrapper>p {
+        font-size: 14px;
+    }
+    .blog-page-cards p {
+        font-size: 14px;
+    }
+    .blog-page-cards h3 {
+        font-size: 41px;
+    }
+
+    /* Blog Pages CSS End */
 
 }
 
@@ -598,21 +645,47 @@
 
     /* Privacy Policy Page CSS End */
 
-    
+
     /* Terms Conditions CSS Start */
     .terms-conditions-group h3 {
         font-size: 35px;
     }
-    .terms-conditions-group p ,    .terms-conditions-group ul li {
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 13px;
     }
+
     .terms-conditions-group .odd-heading {
         font-size: 15px;
     }
+
     .terms-conditions-group h4 {
         font-size: 15px;
     }
+
     /* Terms Conditions CSS End*/
+
+    /* Blog Pages CSS Start */
+    .blog-banner-text h2 {
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 35px;
+    }
+    .blog-page-cards-wrapper>p {
+        font-size: 13px;
+    }
+    .blog-page-cards p {
+        font-size: 13px;
+    }
+    .blog-page-cards h3 {
+        font-size: 38px;
+    }
+    .blog-page-cards {
+         min-height: 190px;
+      }
+    /* Blog Pages CSS End */
+
 }
 
 
@@ -806,12 +879,35 @@
     .terms-conditions-group h3 {
         font-size: 30px;
     }
-    .terms-conditions-group p ,    .terms-conditions-group ul li {
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 12px;
     }
+
     .terms-conditions-group .odd-heading {
         font-size: 14px;
     }
- 
-    /* Terms Conditions CSS Start */
+
+    /* Terms Conditions CSS End */
+
+    /* Blog Pages CSS Start */
+    .blog-banner-text h2 {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .blog-page-cards-wrapper>p {
+        font-size: 12px;
+    }
+    .blog-page-cards p {
+        font-size: 12px;
+    }
+    .blog-page-cards h3 {
+        font-size: 35px;
+    }
+    .blog-page-cards {
+        min-height:220px;
+     }
+    /* Blog Pages CSS End */
+
 }
