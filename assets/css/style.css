@@ -74,6 +74,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 /* Global CSS End */
 
 
@@ -134,20 +135,20 @@ img {
   display: block;
   content: '';
   border-bottom: solid 1px #ff009c;
-  /* transform: scaleX(0); */
   transition: all 300ms ease-in-out;
-  height: 10px;
   position: absolute;
   left: 0;
-top: 100%;
-width: 0%;
+  top: 100%;
+  width: 0%;
+  transform-origin: center;
 }
 
-.main-navbar ul li a:hover:after,.main-navbar ul li a.active:after {
-  /* transform: scaleX(1); */
+.main-navbar ul li a:hover:after,
+.main-navbar ul li a.active:after {
   width: 100%;
- }
- .main-navbar ul li a.active {
+}
+
+.main-navbar ul li a.active {
   color: #ff009c;
 }
 
@@ -533,6 +534,7 @@ input.pages-signup-input {
 section.pages-blog-cards {
   overflow: hidden;
 }
+
 .page-blog-cards {
   position: relative;
   overflow: hidden;
@@ -594,7 +596,7 @@ section.pages-blog-cards {
 
 .blog-cards-image {
   overflow: hidden;
-  height:100%;
+  height: 100%;
   width: 100%;
 }
 
@@ -932,7 +934,8 @@ section.pages-blog-cards {
   list-style-type: disc;
   margin-left: 17px;
 }
-.privacy-policy-group p a{
+
+.privacy-policy-group p a {
   color: #fff;
   font-weight: 600;
   font-size: 17px;
@@ -946,27 +949,28 @@ section.pages-blog-cards {
 /* Privacy Policy CSS End */
 
 /* Contact Us Page CSS Start */
-.contact-us-page-form-section .container>h3{
-font-family: "Raleway", sans-serif;
-max-width: 700px;
-margin:0 auto;
-font-size: 24px;
+.contact-us-page-form-section .container>h3 {
+  font-family: "Raleway", sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 24px;
 }
 
 
-.contact-us-form-image{
+.contact-us-form-image {
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
-.contact-us-form-image img{
+
+.contact-us-form-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 
-.form-wrapper{
+.form-wrapper {
   height: 100%;
   width: 100%;
 }
@@ -1016,9 +1020,8 @@ fieldset {
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
-#contact textarea ,
-#contact select
-{
+#contact textarea,
+#contact select {
   width: 100%;
   border: 1px solid #ccc;
   background: #FFF;
@@ -1045,21 +1048,22 @@ fieldset {
   max-width: 100%;
   resize: none;
 }
+
 #contact select {
   max-width: 100%;
-color: #888;
-outline: none;
+  color: #888;
+  outline: none;
 }
 
 #contact button[type="submit"] {
   cursor: pointer;
   width: 35%;
   border: none;
-  background:#ea62b5;
+  background: #ea62b5;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
-  font-family: "Raleway", sans-serif; 
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
 }
 
@@ -1084,16 +1088,19 @@ outline: none;
   border: 1px solid #aaa;
 }
 
-::-webkit-input-placeholder,::-webkit-select-placeholder {
+::-webkit-input-placeholder,
+::-webkit-select-placeholder {
   color: #888;
 }
 
 :-moz-placeholder {
   color: #888;
 }
+
 :-ms-input-placeholder {
   color: #888;
 }
+
 .contact-us-group {
   margin-bottom: 30px;
   padding: 20px;
@@ -1101,25 +1108,32 @@ outline: none;
   border-radius: 10px;
   overflow: none;
 }
+
 .contact-us-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
   color: #ff009c;
 }
+
 .contact-us-group p {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.contact-us-group ul li{
-list-style: disc;
-margin-left: 16px;
+
+.contact-us-group ul li {
+  list-style: disc;
+  margin-left: 16px;
 }
-.contact-us-group ul li a,.contact-us-group p a{
+
+.contact-us-group ul li a,
+.contact-us-group p a {
   color: #fff;
   font-weight: 600;
   font-size: 17px;
   transition: 0.2s all ease-in-out;
 }
-.contact-us-group ul li a:hover,.contact-us-group p a:hover{
+
+.contact-us-group ul li a:hover,
+.contact-us-group p a:hover {
   color: #ff009c;
   transform: translateX(2px);
 }
@@ -1134,30 +1148,36 @@ margin-left: 16px;
   border-radius: 10px;
   overflow: none;
 }
+
 .terms-conditions-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
   color: #ff009c;
 }
+
 .terms-conditions-group h4 {
   font-size: 18px;
   margin-bottom: 10px;
   font-family: "Raleway", sans-serif;
 }
-.terms-conditions-group .odd-heading{
-  font-family: "Raleway", sans-serif; 
-  font-size: 22px;  
+
+.terms-conditions-group .odd-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
 }
+
 .terms-conditions-group p {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.terms-conditions-group p a{
+
+.terms-conditions-group p a {
   color: #fff;
   font-weight: 600;
   font-size: 17px;
   transition: 0.2s all ease-in-out;
 }
-.terms-conditions-group p a:hover{
+
+.terms-conditions-group p a:hover {
   color: #ff009c;
   transform: translateX(2px);
 }
@@ -1171,66 +1191,76 @@ margin-left: 16px;
   min-height: 230px;
   box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
 }
-.blog-page-cards h3{
+
+.blog-page-cards h3 {
   font-size: 45px;
   margin-bottom: 10px;
   color: #ff009c;
 }
-.blog-page-cards-wrapper>h2{
+
+.blog-page-cards-wrapper>h2 {
   font-size: 50px;
   border: 1px solid #ff009c;
   padding: 10px;
 }
-.blog-page-cards-wrapper>p{
+
+.blog-page-cards-wrapper>p {
   max-width: 950px;
   margin: auto;
 }
+
 /* Blog Pages CSS End */
 
 
 /* Cookies CSS Start */
 .wrapper {
   position: fixed;
-   bottom:-100%;
+  bottom: -100%;
   width: 100%;
-    background-color:#ea62b5;
-   padding: 15px 25px 22px;
+  background-color: #ea62b5;
+  padding: 15px 25px 22px;
   transition: all 1s ease-in-out;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+
 .wrapper.show {
   bottom: 0;
 }
+
 .info {
   margin-bottom: 15px;
 }
+
 .info p {
   font-size: 15px;
   color: #fff;
   font-weight: 400;
 }
+
 .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap:10px;
+  gap: 10px;
 }
+
 .button {
   width: calc(30% / 2 - 10px);
   padding: 8px 0;
   border: none;
   border-radius: 4px;
-background-color: #FFF;
+  background-color: #FFF;
   color: #ff009c;
   cursor: pointer;
   transition: all 0.7s ease;
-   font-weight: 600;
-   border: 1px solid #fff;
+  font-weight: 600;
+  border: 1px solid #fff;
 }
-.button:hover {
- background-color: #ff009c;
-color:#fff;
-}
-/* Cookies CSS End */
 
+.button:hover {
+  background-color: #ff009c;
+  color: #fff;
+}
+
+/* Cookies CSS End */
