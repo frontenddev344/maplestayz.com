@@ -1223,6 +1223,7 @@ fieldset {
   bottom: -100%;
   width: 100%;
   background-color:#fccb06;
+  background:linear-gradient(to top , #fccb06 ,#e9cd5e);
   padding: 15px 25px 22px;
   transition: all 1s ease-in-out;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1238,8 +1239,8 @@ fieldset {
 
 .info p {
   font-size: 15px;
-  color: #fff;
-  font-weight: 400;
+  font-weight: 600;
+  color: #000;
 }
 
 .buttons {
@@ -1256,7 +1257,7 @@ fieldset {
   border: none;
   border-radius: 4px;
   background-color: #FFF;
-  color: #efcd45;
+  color: #000;
   cursor: pointer;
   transition: all 0.7s ease;
   font-weight: 600;
@@ -1264,7 +1265,6 @@ fieldset {
 }
 
 .button:hover {
-  background-color: #fccb06;
   color: #000;
   border-color:#000;
 }
