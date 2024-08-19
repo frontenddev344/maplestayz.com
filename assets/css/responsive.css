@@ -30,12 +30,10 @@
        .fixed-header .main-navbar ul li a:not(.active) {
         color: #fff;
     }
-
-   
+  
     .menu-icon {
         display: block;
     }
-
     .close-icon {
         position: absolute;
         top: 20px;
@@ -45,7 +43,6 @@
         text-align: end;
         z-index: 55;
     }
-
     .banner-text h1 {
         font-size: 85px;
     }
