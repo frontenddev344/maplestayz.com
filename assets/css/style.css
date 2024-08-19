@@ -75,6 +75,11 @@ img {
   padding: 0 15px;
 }
 
+/* old color 
+#ff009c
+#ee71be
+*/
+
 /* Global CSS End */
 
 
@@ -134,7 +139,7 @@ img {
 .main-navbar ul li a:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #ff009c;
+  border-bottom: solid 1px #fccb06;
   transition: all 300ms ease-in-out;
   position: absolute;
   left: 0;
@@ -148,7 +153,7 @@ img {
 }
 
 .main-navbar ul li a.active {
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .close-icon {
@@ -156,16 +161,14 @@ img {
 }
 
 .fixed-header {
-  background-color: #fff;
+  background-color: #000;
+  border-color: #000;
 }
 
-.fixed-header .main-navbar ul li a {
-  color: #000;
-}
 
 .menu-icon {
   display: none;
-  color: #ff009c;
+  color: #fccb06;
   width: 30px;
   text-align: right;
   cursor: pointer;
@@ -233,7 +236,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  color: #ff009c;
+  color: #fccb06;
   overflow: hidden;
   animation: animate 3s ease-in-out;
 }
@@ -348,7 +351,7 @@ img {
 
 .pages-signup-wrapper {
   text-align: center;
-  border: 5px double #ff009c;
+  border: 5px double #fccb06;
   padding: 30px 0;
 }
 
@@ -369,14 +372,14 @@ input.pages-signup-input {
 
 .pages-signup-submit-button {
   display: inline-block;
-  background: #ff009c;
-  color: #fff;
+  background: #fccb06;
   padding: 9px 25px;
   font-size: 16px;
   outline: none;
   border: none;
   margin-left: 5px;
   cursor: pointer;
+  font-weight: 600;
   border: 1px solid transparent;
   transition: 0.3s all ease-in-out;
   line-height: normal;
@@ -384,8 +387,8 @@ input.pages-signup-input {
 
 .pages-signup-submit-button:hover {
   background-color: #fff;
-  color: #ff009c;
-  border-color: #ff009c;
+  color: #000;
+  border-color:#fff;
 }
 
 .pages-signup-wrapper h3 {
@@ -402,7 +405,7 @@ input.pages-signup-input {
 /* Home Page Featured Cards CSS Start */
 .heading-like {
   font-weight: 600;
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .home-page-featured-cards-section {
@@ -424,8 +427,9 @@ input.pages-signup-input {
 }
 
 .btn-darkred-block {
-  background: #ff009c;
+  background: #fccb06;
   color: #fff;
+  color: #000;
   border: none;
   outline: none;
   padding: 10px 20px;
@@ -434,17 +438,17 @@ input.pages-signup-input {
   line-height: normal;
   display: inline-block;
   text-align: center;
-  border: 1px solid #ee71be;
-  font-weight: 500;
+  border: 1px solid transparent;
+  font-weight: 600;
 }
 
 .btn-darkred-block:hover {
   background: #fff;
-  color: #ff009c;
+ 
 }
 
 .external-pages-link-btn {
-  color: #ff009c;
+color: #000;
   background-color: #fff;
   outline: none;
   padding: 10px 20px;
@@ -453,12 +457,13 @@ input.pages-signup-input {
   transition: 0.7s all ease-in-out;
   overflow: hidden;
   border: 1px solid transparent;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .external-pages-link-btn:hover {
-  background: #ff009c;
-  color: #fff;
+  background: #fccb06;
+  border-color: #fccb06;
+  color: #000;
 }
 
 .text-left {
@@ -470,7 +475,7 @@ input.pages-signup-input {
 .home-page-featured-cards {
   padding: 15px;
   background-color: #000;
-  border: 1px solid #ff009c;
+  border: 2px solid #fccb06;
   border-radius: 10px;
   overflow: hidden;
   height: 100%;
@@ -539,7 +544,7 @@ section.pages-blog-cards {
   overflow: hidden;
   background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
-  border: 5px solid #ff009c;
+  border: 5px solid #fccb06; 
   height: 300px;
   overflow: hidden;
 }
@@ -555,7 +560,8 @@ section.pages-blog-cards {
 
 .blog-card-btn {
   color: #fff;
-  background: #ff009c;
+  color: #000;
+  background: #fccb06;
   outline: none;
   padding: 10px 20px;
   line-height: normal;
@@ -563,14 +569,14 @@ section.pages-blog-cards {
   transition: 0.3s all ease-in-out;
   overflow: hidden;
   border: 1px solid transparent;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px auto;
 }
 
 .blog-card-btn:hover {
   background: #fff;
-  color: #ff009c;
-  border-color: #ff009c;
+  color: #000;
+  border-color: #fff;
 }
 
 .blog-cards-content {
@@ -616,7 +622,7 @@ section.pages-blog-cards {
 /* Pages Disclaimer Section CSS Start */
 .disclaimer-wrapper p {
   padding: 20px;
-  border: 1px solid #ea62b5;
+  border:1px solid #e9cd5e
 }
 
 /* Pages Disclaimer Section CSS End */
@@ -644,9 +650,10 @@ section.pages-blog-cards {
 }
 
 .accordion-button:not(.collapsed) {
-  background: #ee71be;
+  background:#efcd45 ;
   box-shadow: none;
-  color: #fff;
+  color: #000;
+  font-weight: 600;
 }
 
 .accordion-item:first-of-type>.accordion-header .accordion-button {
@@ -660,8 +667,9 @@ section.pages-blog-cards {
 }
 
 .accordion-button {
-  color: #fff;
-  background: #ea62b5;
+  color: #000;
+  font-weight: 600;
+  background:#efcd45 ;
 }
 
 .accordion {
@@ -722,7 +730,7 @@ section.pages-blog-cards {
 }
 
 .footer-menu-icons {
-  color: #ff009c;
+  color: #fccb06;
   margin-right: 5px;
 }
 
@@ -730,7 +738,7 @@ section.pages-blog-cards {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: #ff009c;
+  color:#fccb06 ;
 }
 
 .footer-items .social-icons {
@@ -754,7 +762,7 @@ section.pages-blog-cards {
 .footer .footer-items ul li a:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #ff009c;
+  border-bottom: solid 1px #fccb06;
   transition: all 300ms ease-in-out;
   position: absolute;
   left: 0;
@@ -772,7 +780,7 @@ section.pages-blog-cards {
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border-top: 1px solid #ff009c;
+  border-top: 1px solid #fccb06;
 }
 
 .copyright p {
@@ -800,7 +808,7 @@ section.pages-blog-cards {
   border-radius: 50%;
   font-size: 17px;
   background-color: #fffcfc;
-  color: #ff009c;
+ color: #000;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -811,19 +819,18 @@ section.pages-blog-cards {
 }
 
 .social-icons i:hover {
-  color: #fff;
-  background: linear-gradient(to bottom, #ff009c, #ee71be);
+  background: linear-gradient(to top, #fccb06, #edd36a);
   transform: translateY(2px);
 }
 
 /* Social Icons CSS End */
 
 /* Pages Banner CSS Start */
-/* .pages-banner-image {
+ .pages-banner-image {
   height: 550px;
   width: 100%;
   overflow: hidden;
-} */
+} 
 
 .pages-banner-image img {
   object-fit: cover;
@@ -862,12 +869,9 @@ section.pages-blog-cards {
 /* Pages Banner CSS End */
 
 /* Pages Cards CSS Start */
-
-
-
 .pages-cards {
   margin-bottom: 40px;
-  border: 3px double #ff009c;
+  border: 3px double #fccb06;
   padding: 15px;
   overflow: hidden;
 }
@@ -909,7 +913,7 @@ section.pages-blog-cards {
 .privacy-policy-group {
   margin-bottom: 30px;
   padding: 20px;
-  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  box-shadow: rgb(252, 203, 6) 0px 20px 15px -20px, rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
   border-radius: 10px;
   overflow: none;
 }
@@ -917,7 +921,7 @@ section.pages-blog-cards {
 .privacy-policy-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .privacy-policy-group h4 {
@@ -1060,8 +1064,8 @@ fieldset {
   cursor: pointer;
   width: 35%;
   border: none;
-  background: #ea62b5;
-  color: #FFF;
+  background: #efcd45;
+  color: #000;
   margin: 0 0 5px;
   padding: 10px;
   font-family: "Raleway", sans-serif;
@@ -1069,7 +1073,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #ff009c;
+  background: #fccb06;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -1105,7 +1109,7 @@ fieldset {
 .contact-us-group {
   margin-bottom: 30px;
   padding: 20px;
-  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  box-shadow: rgb(252, 203, 6) 0px 20px 15px -20px, rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
   border-radius: 10px;
   overflow: none;
 }
@@ -1113,7 +1117,7 @@ fieldset {
 .contact-us-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .contact-us-group p {
@@ -1135,7 +1139,7 @@ fieldset {
 
 .contact-us-group ul li a:hover,
 .contact-us-group p a:hover {
-  color: #ff009c;
+  color:#fccb06;
   transform: translateX(2px);
 }
 
@@ -1145,7 +1149,7 @@ fieldset {
 .terms-conditions-group {
   margin-bottom: 30px;
   padding: 20px;
-  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  box-shadow: rgb(252, 203, 6) 0px 20px 15px -20px, rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
   border-radius: 10px;
   overflow: none;
 }
@@ -1153,7 +1157,7 @@ fieldset {
 .terms-conditions-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .terms-conditions-group h4 {
@@ -1179,7 +1183,7 @@ fieldset {
 }
 
 .terms-conditions-group p a:hover {
-  color: #ff009c;
+  color: #fccb06;
   transform: translateX(2px);
 }
 
@@ -1190,18 +1194,18 @@ fieldset {
   margin-bottom: 30px;
   padding: 15px;
   min-height: 230px;
-  box-shadow: rgba(255, 0, 156) 0px 20px 15px -20px, rgba(255, 0, 156) 0px 20px 20px -30px, rgba(255, 0, 156) 0px -2px 6px 0px inset;
+  box-shadow:rgb(252, 203, 6) 0px 20px 15px -20px,rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
 }
 
 .blog-page-cards h3 {
   font-size: 45px;
   margin-bottom: 10px;
-  color: #ff009c;
+  color: #fccb06;
 }
 
 .blog-page-cards-wrapper>h2 {
   font-size: 50px;
-  border: 1px solid #ff009c;
+  border: 1px solid #fccb06;
   padding: 10px;
 }
 
@@ -1218,7 +1222,7 @@ fieldset {
   position: fixed;
   bottom: -100%;
   width: 100%;
-  background-color: #ea62b5;
+  background-color:#fccb06;
   padding: 15px 25px 22px;
   transition: all 1s ease-in-out;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1252,7 +1256,7 @@ fieldset {
   border: none;
   border-radius: 4px;
   background-color: #FFF;
-  color: #ff009c;
+  color: #efcd45;
   cursor: pointer;
   transition: all 0.7s ease;
   font-weight: 600;
@@ -1260,8 +1264,9 @@ fieldset {
 }
 
 .button:hover {
-  background-color: #ff009c;
-  color: #fff;
+  background-color: #fccb06;
+  color: #000;
+  border-color:#000;
 }
 
 /* Cookies CSS End */
