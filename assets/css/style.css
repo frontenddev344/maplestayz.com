@@ -74,8 +74,7 @@ img {
 }
 
 /* old color 
-#ff009c
-#ee71be
+#fccb06
 */
 
 /* Global CSS End */
@@ -137,7 +136,8 @@ img {
 .main-navbar ul li a:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #fccb06;
+  /* border-bottom: solid 1px #fccb06; */
+  border-bottom: solid 1px #efcd45;
   /* border-bottom: solid 1px #30d5c8; */
   transition: all 300ms ease-in-out;
   position: absolute;
@@ -152,7 +152,7 @@ img {
 }
 
 .main-navbar ul li a.active {
-  color: #fccb06;
+  color: #efcd45;
   /* color: #30d5c8; */
 }
 
@@ -168,7 +168,7 @@ img {
 
 .menu-icon {
   display: none;
-  color: #fccb06;
+  color: #efcd45;
   /* color: #30d5c8; */
   width: 30px;
   text-align: right;
@@ -237,8 +237,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  color: #fccb06;
-  /* color: #30d5c8; */
+  color: #efcd45;
   overflow: hidden;
   animation: animate 3s ease-in-out;
 }
@@ -353,7 +352,7 @@ img {
 
 .pages-signup-wrapper {
   text-align: center;
-  border: 5px double #fccb06;
+  border: 5px double #efcd45;
   /* border: 5px double #30d5c8; */
   padding: 30px 0;
 }
@@ -375,8 +374,8 @@ input.pages-signup-input {
 
 .pages-signup-submit-button {
   display: inline-block;
-  background: #fccb06;
-  /* background: #30d5c8; */
+  background-color: #ff5f1f;
+  color: #FFF;
   padding: 9px 25px;
   font-size: 16px;
   outline: none;
@@ -392,7 +391,7 @@ input.pages-signup-input {
 .pages-signup-submit-button:hover {
   background-color: #fff;
   color: #000;
-  border-color:#fff;
+  border-color: #fff;
 }
 
 .pages-signup-wrapper h3 {
@@ -433,9 +432,8 @@ input.pages-signup-input {
 
 .btn-darkred-block {
   background: #fccb06;
-  /* background: #30d5c8; */
+  background: #ff5f1f;
   color: #fff;
-  color: #000;
   border: none;
   outline: none;
   padding: 10px 20px;
@@ -450,11 +448,11 @@ input.pages-signup-input {
 
 .btn-darkred-block:hover {
   background: #fff;
- 
+  color: #000;
 }
 
 .external-pages-link-btn {
-color: #000;
+  color: #000;
   background-color: #fff;
   outline: none;
   padding: 10px 20px;
@@ -467,11 +465,9 @@ color: #000;
 }
 
 .external-pages-link-btn:hover {
-  background: #fccb06;
-  /* background: #30d5c8; */
-  border-color: #fccb06;
-  /* border-color: #30d5c8; */
-  color: #000;
+  background: #ff5f1f;
+  border-color: #ff5f1f;
+  color: #fff;
 }
 
 .text-left {
@@ -483,7 +479,7 @@ color: #000;
 .home-page-featured-cards {
   padding: 15px;
   background-color: #000;
-  border: 2px solid #fccb06;
+  border: 2px solid #efcd45;
   /* border: 2px solid #30d5c8; */
   border-radius: 10px;
   overflow: hidden;
@@ -508,9 +504,17 @@ color: #000;
   margin-right: 8px;
   animation: beat 1.7s linear infinite;
 }
+
 @keyframes beat {
-  0%,100% { transform: scale(1); }
-  50% { transform: scale(1.3); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
 }
 
 
@@ -560,8 +564,7 @@ section.pages-blog-cards {
   overflow: hidden;
   background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
-  border: 5px solid #fccb06; 
-  /* border: 5px solid #30d5c8;  */
+  border: 5px solid #efcd45;
   height: 300px;
   overflow: hidden;
 }
@@ -577,9 +580,7 @@ section.pages-blog-cards {
 
 .blog-card-btn {
   color: #fff;
-  color: #000;
-  background: #fccb06;
-  /* background: #30d5c8; */
+  background: #ff5f1f;
   outline: none;
   padding: 10px 20px;
   line-height: normal;
@@ -640,7 +641,7 @@ section.pages-blog-cards {
 /* Pages Disclaimer Section CSS Start */
 .disclaimer-wrapper p {
   padding: 20px;
-  border:1px solid #e9cd5e;
+  border: 1px solid #efcd45;
   /* border:1px solid #30d5c8; */
 }
 
@@ -669,9 +670,7 @@ section.pages-blog-cards {
 }
 
 .accordion-button:not(.collapsed) {
-  background:#efcd45 ;
-
-   */
+  background: #efcd45;
   box-shadow: none;
   color: #000;
   font-weight: 600;
@@ -690,8 +689,7 @@ section.pages-blog-cards {
 .accordion-button {
   color: #000;
   font-weight: 600;
-  background:#efcd45 ;
-  /* background:#30d5c8 ; */
+  background: #efcd45;
 }
 
 .accordion {
@@ -752,7 +750,7 @@ section.pages-blog-cards {
 }
 
 .footer-menu-icons {
-  color: #fccb06;
+  color: #efcd45;
   /* color: #30d5c8; */
   margin-right: 5px;
 }
@@ -761,7 +759,7 @@ section.pages-blog-cards {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
-  color:#fccb06 ;
+  color: #efcd45;
   /* color:#30d5c8 ; */
 }
 
@@ -786,7 +784,7 @@ section.pages-blog-cards {
 .footer .footer-items ul li a:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #fccb06;
+  border-bottom: solid 1px #efcd45;
   /* border-bottom: solid 1px #30d5c8; */
   transition: all 300ms ease-in-out;
   position: absolute;
@@ -805,7 +803,7 @@ section.pages-blog-cards {
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border-top: 1px solid #fccb06;
+  border-top: 1px solid #efcd45;
   /* border-top: 1px solid #30d5c8; */
 }
 
@@ -834,7 +832,7 @@ section.pages-blog-cards {
   border-radius: 50%;
   font-size: 17px;
   background-color: #fffcfc;
- color: #000;
+  color: #000;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -845,7 +843,7 @@ section.pages-blog-cards {
 }
 
 .social-icons i:hover {
-  background: linear-gradient(to top, #fccb06, #edd36a);
+  background: linear-gradient(to top, #efcd45, #fccb06);
   /* background: linear-gradient(to top, #30d5c8, #a7f8f1); */
   transform: translateY(2px);
 }
@@ -853,11 +851,11 @@ section.pages-blog-cards {
 /* Social Icons CSS End */
 
 /* Pages Banner CSS Start */
- .pages-banner-image {
+.pages-banner-image {
   height: 550px;
   width: 100%;
   overflow: hidden;
-} 
+}
 
 .pages-banner-image img {
   object-fit: cover;
@@ -898,7 +896,7 @@ section.pages-blog-cards {
 /* Pages Cards CSS Start */
 .pages-cards {
   margin-bottom: 40px;
-  border: 3px double #fccb06;
+  border: 3px double #efcd45;
   /* border: 3px double #30d5c8; */
   padding: 15px;
   overflow: hidden;
@@ -949,7 +947,7 @@ section.pages-blog-cards {
 .privacy-policy-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #fccb06;
+  color: #efcd45;
 }
 
 .privacy-policy-group h4 {
@@ -1099,12 +1097,14 @@ fieldset {
   font-family: "Raleway", sans-serif;
   font-size: 17px;
 }
+
 #contact button[type="submit"]:hover {
-  background: #fccb06;
+  background: #efcd45;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
+
 #contact button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -1143,7 +1143,7 @@ fieldset {
 .contact-us-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #fccb06;
+  color: #efcd45;
 }
 
 .contact-us-group p {
@@ -1165,7 +1165,7 @@ fieldset {
 
 .contact-us-group ul li a:hover,
 .contact-us-group p a:hover {
-  color:#fccb06;
+  color: #efcd45;
   transform: translateX(2px);
 }
 
@@ -1183,7 +1183,7 @@ fieldset {
 .terms-conditions-group h3 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #fccb06;
+  color: #efcd45;
 }
 
 .terms-conditions-group h4 {
@@ -1209,7 +1209,7 @@ fieldset {
 }
 
 .terms-conditions-group p a:hover {
-  color: #fccb06;
+  color: #efcd45;
   transform: translateX(2px);
 }
 
@@ -1220,18 +1220,18 @@ fieldset {
   margin-bottom: 30px;
   padding: 15px;
   min-height: 230px;
-  box-shadow:rgb(252, 203, 6) 0px 20px 15px -20px,rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
+  box-shadow: rgb(252, 203, 6) 0px 20px 15px -20px, rgb(252, 203, 6) 0px 20px 20px -30px, rgb(252, 203, 6) 0px -2px 6px 0px inset;
 }
 
 .blog-page-cards h3 {
   font-size: 45px;
   margin-bottom: 10px;
-  color: #fccb06;
+  color: #efcd45;
 }
 
 .blog-page-cards-wrapper>h2 {
   font-size: 50px;
-  border: 1px solid #fccb06;
+  border: 1px solid #efcd45;
   padding: 10px;
 }
 
@@ -1248,8 +1248,7 @@ fieldset {
   position: fixed;
   bottom: -100%;
   width: 100%;
-  background-color:#edd36a;
-  /* background-color:#30d5c8; */
+  background-color: #efcd45;
   padding: 15px 25px 22px;
   transition: all 1s ease-in-out;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1282,17 +1281,17 @@ fieldset {
   padding: 8px 0;
   border: none;
   border-radius: 4px;
-  background-color: #FFF;
-  color: #000;
+  background-color: #ff5f1f;
+  color: #fff;
   cursor: pointer;
   transition: all 0.7s ease;
   font-weight: 600;
-  border: 1px solid #fff;
 }
 
 .button:hover {
   color: #000;
-  border-color:#000;
+  border-color: #000;
+  background-color: #FFF;
 }
 
 /* Cookies CSS End */
