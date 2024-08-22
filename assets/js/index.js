@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 AOS.init();
 
-// //Cookies JS Start
+ //Cookies JS Start
 const cookiesBox = document.querySelector('.wrapper'),
   buttons = document.querySelectorAll('.button');
 
