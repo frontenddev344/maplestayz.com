@@ -495,7 +495,7 @@ color: #000;
 
 .dollar-bag {
   margin-right: 8px;
-  animation: beat 2s linear infinite;
+  animation: beat 1.7s linear infinite;
 }
 @keyframes beat {
   0%,100% { transform: scale(1); }
