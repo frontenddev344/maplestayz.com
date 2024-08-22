@@ -502,7 +502,7 @@
     }
 
     input.pages-signup-input {
-        width: 90%;
+        width: 70%;
         font-size: 14px;
         padding: 7px 15px;
     }
@@ -519,7 +519,7 @@
 
 
     .pages-signup-submit-button {
-        padding: 8px 22px;
+        padding: 7px 20px;
         font-size: 14px;
     }
 
@@ -799,7 +799,8 @@
     }
 
     input.pages-signup-input {
-        font-size: 13px;
+        width: 80%;
+        font-size: 14px;
         padding: 7px 15px;
     }
 
