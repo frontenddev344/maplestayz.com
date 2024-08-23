@@ -198,6 +198,11 @@
     .blog-page-cards h3 {
         font-size: 43px;
     }
+    .page-blog-cards:hover .blog-cards-content {
+        top: 0%;
+        opacity: 1;
+        visibility: visible;
+    }
 
     /* Blog Pages CSS End */
     /* Cookies CSS Start */
@@ -238,12 +243,6 @@
 
     .page-blog-cards {
         height: 220px;
-    }
-
-    .page-blog-cards:hover .blog-cards-content {
-        top: 0%;
-        opacity: 1;
-        visibility: visible;
     }
 
     .home-page-cards-section {
