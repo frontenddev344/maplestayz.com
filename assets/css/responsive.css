@@ -26,10 +26,7 @@
         flex-direction: column;
 
     }
-       .fixed-header .main-navbar ul li a:not(.active) {
-        color: #fff;
-    }
-  
+    
     .menu-icon {
         display: block;
     }
