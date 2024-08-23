@@ -73,10 +73,6 @@ img {
   padding: 0 15px;
 }
 
-/* old color 
-#fccb06
-*/
-
 /* Global CSS End */
 
 
@@ -409,7 +405,6 @@ input.pages-signup-input {
 .heading-like {
   font-weight: 600;
   color: #efcd45;
-  /* color: #30d5c8; */
 }
 
 .home-page-featured-cards-section {
