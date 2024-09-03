@@ -1278,6 +1278,9 @@ fieldset {
 /* Cookies CSS End */
 
 /*  */
+section.disclaimer {
+  padding-bottom: 48px;
+}
 .disclaimer_content h5 {
   font-size: 50px;
   line-height: normal;
