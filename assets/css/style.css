@@ -922,7 +922,7 @@ section.pages-blog-cards {
 .privacy-policy-group {
   margin-bottom: 30px;
   padding: 20px;
-  box-shadow:rgb(239 205 69) 0px 20px 15px -20px, rgb(239 205 69) 0px 20px 20px -30px, rgb(239 205 69) 0px -2px 6px 0px inset;
+  box-shadow: rgb(239 205 69) 0px 20px 15px -20px, rgb(239 205 69) 0px 20px 20px -30px, rgb(239 205 69) 0px -2px 6px 0px inset;
   border-radius: 10px;
   overflow: none;
 }
@@ -1272,7 +1272,19 @@ fieldset {
 }
 
 .button:hover {
-border-color: #000;
+  border-color: #000;
 }
 
 /* Cookies CSS End */
+
+/*  */
+.disclaimer_content h5 {
+  font-size: 50px;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.disclaimer_content p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
