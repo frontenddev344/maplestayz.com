@@ -1283,8 +1283,13 @@ fieldset {
   line-height: normal;
   margin-bottom: 12px;
 }
+
 .disclaimer_content p {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 8px;
+}
+
+.disclaimer_content p a {
+  color: #fccb06;
 }
